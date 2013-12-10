@@ -1,0 +1,3763 @@
+{
+    "project.project": {
+        "backgroundColor": [
+            0.75,
+            0.76,
+            0.78,
+            1
+        ],
+        "created": "2013-12-10T19:14:25.706739",
+        "deleted": false,
+        "edit": [],
+        "entityRefs": [
+            "warriorIdle/entities/Base_Tunic_0.entity",
+            "warriorIdle/entities/Base_Head_0.entity",
+            "warriorIdle/entities/RootNode.entity",
+            "warriorIdle/entities/Base_Boots_0.entity",
+            "warriorIdle/entities/Leather_Helm_0.entity",
+            "warriorIdle/entities/Base_Gloves_0.entity",
+            "warriorIdle/entities/Base_Pants_0.entity"
+        ],
+        "fogColor": [
+            1,
+            1,
+            1
+        ],
+        "fogFar": 1000,
+        "fogNear": 0,
+        "globalAmbient": [
+            0,
+            0,
+            0
+        ],
+        "groupRefs": [
+            "warriorIdle/warriorIdle.group",
+            "warriorrun/warriorrun.group",
+            "root.group",
+            "warrior2hAxeAttack/warrior2hAxeAttack.group"
+        ],
+        "id": "GLMyov_VSeyPljV4ZbCgPw",
+        "licenseType": "CC0",
+        "modified": "2013-12-10T19:19:00.832477",
+        "name": "Warrior",
+        "originalLicenseType": null,
+        "own": [
+            "h9AeW1X3S1WZYADWuViCyw"
+        ],
+        "parent": null,
+        "public": true,
+        "ref": "project.project",
+        "screenshot": "images/screenshot.png",
+        "skybox": {
+            "environmentType": 1,
+            "imageUrls": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "rotation": 0,
+            "shape": "Box"
+        },
+        "useFog": false,
+        "view": []
+    },
+    "root.group": {
+        "libraryRefs": [
+            "warriorrun/animations/Take.animstate",
+            "warrior2hAxeAttack/animations/Take.animstate",
+            "images/screenshot.png"
+        ],
+        "name": "root",
+        "ref": "root.group"
+    },
+    "warrior2hAxeAttack/animations/Take.animstate": {
+        "clipSource": {
+            "clipRef": "warrior2hAxeAttack/animations/Take_001.clip",
+            "loopCount": -1,
+            "timeScale": 1,
+            "type": "Clip"
+        },
+        "name": "Attack",
+        "ref": "warrior2hAxeAttack/animations/Take.animstate"
+    },
+    "warrior2hAxeAttack/animations/Take_001.clip": {
+        "binaryRef": "warrior2hAxeAttack/binaries/1386702996_warrior2hAxeAttack_Take_001.bin",
+        "channels": [
+            {
+                "blendType": "Linear",
+                "jointIndex": 0,
+                "jointName": "Bip01",
+                "name": "_jnt0",
+                "rotationSamples": [
+                    0,
+                    144,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    576,
+                    108,
+                    "float32"
+                ],
+                "times": [
+                    1440,
+                    36,
+                    "float32"
+                ],
+                "translationSamples": [
+                    1008,
+                    108,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 1,
+                "jointName": "Bip01 Pelvis",
+                "name": "_jnt1",
+                "rotationSamples": [
+                    1584,
+                    144,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    2160,
+                    108,
+                    "float32"
+                ],
+                "times": [
+                    3024,
+                    36,
+                    "float32"
+                ],
+                "translationSamples": [
+                    2592,
+                    108,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 2,
+                "jointName": "Bip01 Spine",
+                "name": "_jnt2",
+                "rotationSamples": [
+                    3168,
+                    144,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    3744,
+                    108,
+                    "float32"
+                ],
+                "times": [
+                    4608,
+                    36,
+                    "float32"
+                ],
+                "translationSamples": [
+                    4176,
+                    108,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 3,
+                "jointName": "Bip01 Spine1",
+                "name": "_jnt3",
+                "rotationSamples": [
+                    4752,
+                    144,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    5328,
+                    108,
+                    "float32"
+                ],
+                "times": [
+                    6192,
+                    36,
+                    "float32"
+                ],
+                "translationSamples": [
+                    5760,
+                    108,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 4,
+                "jointName": "Bip01 Spine2",
+                "name": "_jnt4",
+                "rotationSamples": [
+                    6336,
+                    144,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    6912,
+                    108,
+                    "float32"
+                ],
+                "times": [
+                    7776,
+                    36,
+                    "float32"
+                ],
+                "translationSamples": [
+                    7344,
+                    108,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 5,
+                "jointName": "Bip01 Neck",
+                "name": "_jnt5",
+                "rotationSamples": [
+                    7920,
+                    144,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    8496,
+                    108,
+                    "float32"
+                ],
+                "times": [
+                    9360,
+                    36,
+                    "float32"
+                ],
+                "translationSamples": [
+                    8928,
+                    108,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 6,
+                "jointName": "Bip01 Head",
+                "name": "_jnt6",
+                "rotationSamples": [
+                    9504,
+                    192,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    10272,
+                    144,
+                    "float32"
+                ],
+                "times": [
+                    11424,
+                    48,
+                    "float32"
+                ],
+                "translationSamples": [
+                    10848,
+                    144,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 7,
+                "jointName": "Bip01 HeadNub",
+                "name": "_jnt7",
+                "rotationSamples": [
+                    11616,
+                    144,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    12192,
+                    108,
+                    "float32"
+                ],
+                "times": [
+                    13056,
+                    36,
+                    "float32"
+                ],
+                "translationSamples": [
+                    12624,
+                    108,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 8,
+                "jointName": "Bip01 L Clavicle",
+                "name": "_jnt8",
+                "rotationSamples": [
+                    13200,
+                    144,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    13776,
+                    108,
+                    "float32"
+                ],
+                "times": [
+                    14640,
+                    36,
+                    "float32"
+                ],
+                "translationSamples": [
+                    14208,
+                    108,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 9,
+                "jointName": "Bip01 L UpperArm",
+                "name": "_jnt9",
+                "rotationSamples": [
+                    14784,
+                    396,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    16368,
+                    297,
+                    "float32"
+                ],
+                "times": [
+                    18744,
+                    99,
+                    "float32"
+                ],
+                "translationSamples": [
+                    17556,
+                    297,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 10,
+                "jointName": "Bip01 L Forearm",
+                "name": "_jnt10",
+                "rotationSamples": [
+                    19140,
+                    204,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    19956,
+                    153,
+                    "float32"
+                ],
+                "times": [
+                    21180,
+                    51,
+                    "float32"
+                ],
+                "translationSamples": [
+                    20568,
+                    153,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 11,
+                "jointName": "Bip01 L Hand",
+                "name": "_jnt11",
+                "rotationSamples": [
+                    21384,
+                    204,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    22200,
+                    153,
+                    "float32"
+                ],
+                "times": [
+                    23424,
+                    51,
+                    "float32"
+                ],
+                "translationSamples": [
+                    22812,
+                    153,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 12,
+                "jointName": "Bip01 R Clavicle",
+                "name": "_jnt12",
+                "rotationSamples": [
+                    23628,
+                    144,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    24204,
+                    108,
+                    "float32"
+                ],
+                "times": [
+                    25068,
+                    36,
+                    "float32"
+                ],
+                "translationSamples": [
+                    24636,
+                    108,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 13,
+                "jointName": "Bip01 R UpperArm",
+                "name": "_jnt13",
+                "rotationSamples": [
+                    25212,
+                    332,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    26540,
+                    249,
+                    "float32"
+                ],
+                "times": [
+                    28532,
+                    83,
+                    "float32"
+                ],
+                "translationSamples": [
+                    27536,
+                    249,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 14,
+                "jointName": "Bip01 R Forearm",
+                "name": "_jnt14",
+                "rotationSamples": [
+                    28864,
+                    268,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    29936,
+                    201,
+                    "float32"
+                ],
+                "times": [
+                    31544,
+                    67,
+                    "float32"
+                ],
+                "translationSamples": [
+                    30740,
+                    201,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 15,
+                "jointName": "Bip01 R Hand",
+                "name": "_jnt15",
+                "rotationSamples": [
+                    31812,
+                    224,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    32708,
+                    168,
+                    "float32"
+                ],
+                "times": [
+                    34052,
+                    56,
+                    "float32"
+                ],
+                "translationSamples": [
+                    33380,
+                    168,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 16,
+                "jointName": "Bip01 L Thigh",
+                "name": "_jnt16",
+                "rotationSamples": [
+                    34276,
+                    144,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    34852,
+                    108,
+                    "float32"
+                ],
+                "times": [
+                    35716,
+                    36,
+                    "float32"
+                ],
+                "translationSamples": [
+                    35284,
+                    108,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 17,
+                "jointName": "Bip01 L Calf",
+                "name": "_jnt17",
+                "rotationSamples": [
+                    35860,
+                    144,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    36436,
+                    108,
+                    "float32"
+                ],
+                "times": [
+                    37300,
+                    36,
+                    "float32"
+                ],
+                "translationSamples": [
+                    36868,
+                    108,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 18,
+                "jointName": "Bip01 L Foot",
+                "name": "_jnt18",
+                "rotationSamples": [
+                    37444,
+                    144,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    38020,
+                    108,
+                    "float32"
+                ],
+                "times": [
+                    38884,
+                    36,
+                    "float32"
+                ],
+                "translationSamples": [
+                    38452,
+                    108,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 19,
+                "jointName": "Bip01 L Toe0",
+                "name": "_jnt19",
+                "rotationSamples": [
+                    39028,
+                    144,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    39604,
+                    108,
+                    "float32"
+                ],
+                "times": [
+                    40468,
+                    36,
+                    "float32"
+                ],
+                "translationSamples": [
+                    40036,
+                    108,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 20,
+                "jointName": "Bip01 L Toe0Nub",
+                "name": "_jnt20",
+                "rotationSamples": [
+                    40612,
+                    144,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    41188,
+                    108,
+                    "float32"
+                ],
+                "times": [
+                    42052,
+                    36,
+                    "float32"
+                ],
+                "translationSamples": [
+                    41620,
+                    108,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 21,
+                "jointName": "Bip01 R Thigh",
+                "name": "_jnt21",
+                "rotationSamples": [
+                    42196,
+                    144,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    42772,
+                    108,
+                    "float32"
+                ],
+                "times": [
+                    43636,
+                    36,
+                    "float32"
+                ],
+                "translationSamples": [
+                    43204,
+                    108,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 22,
+                "jointName": "Bip01 R Calf",
+                "name": "_jnt22",
+                "rotationSamples": [
+                    43780,
+                    144,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    44356,
+                    108,
+                    "float32"
+                ],
+                "times": [
+                    45220,
+                    36,
+                    "float32"
+                ],
+                "translationSamples": [
+                    44788,
+                    108,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 23,
+                "jointName": "Bip01 R Foot",
+                "name": "_jnt23",
+                "rotationSamples": [
+                    45364,
+                    144,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    45940,
+                    108,
+                    "float32"
+                ],
+                "times": [
+                    46804,
+                    36,
+                    "float32"
+                ],
+                "translationSamples": [
+                    46372,
+                    108,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 24,
+                "jointName": "Bip01 R Toe0",
+                "name": "_jnt24",
+                "rotationSamples": [
+                    46948,
+                    144,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    47524,
+                    108,
+                    "float32"
+                ],
+                "times": [
+                    48388,
+                    36,
+                    "float32"
+                ],
+                "translationSamples": [
+                    47956,
+                    108,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 25,
+                "jointName": "Bip01 R Toe0Nub",
+                "name": "_jnt25",
+                "rotationSamples": [
+                    48532,
+                    144,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    49108,
+                    108,
+                    "float32"
+                ],
+                "times": [
+                    49972,
+                    36,
+                    "float32"
+                ],
+                "translationSamples": [
+                    49540,
+                    108,
+                    "float32"
+                ],
+                "type": "Joint"
+            }
+        ],
+        "name": "Take 001",
+        "ref": "warrior2hAxeAttack/animations/Take_001.clip"
+    },
+    "warrior2hAxeAttack/warrior2hAxeAttack.group": {
+        "libraryRefs": [
+            "warrior2hAxeAttack/animations/Take_001.clip",
+            "warrior2hAxeAttack/binaries/1386702996_warrior2hAxeAttack_Take_001.bin"
+        ],
+        "name": "warrior2hAxeAttack",
+        "ref": "warrior2hAxeAttack/warrior2hAxeAttack.group"
+    },
+    "warriorIdle/animations/Animations.animation": {
+        "layers": [
+            {
+                "blendWeight": 1,
+                "defaultState": "Take 001",
+                "name": "Default animation layer",
+                "states": {
+                    "Take 001": {
+                        "stateRef": "warriorIdle/animations/Take_001.animstate"
+                    },
+                    "Take_001": {
+                        "stateRef": "warriorrun/animations/Take.animstate"
+                    },
+                    "Take_001_": {
+                        "stateRef": "warrior2hAxeAttack/animations/Take.animstate"
+                    }
+                },
+                "transitions": {
+                    "*": {
+                        "fadeTime": "0.125",
+                        "type": "Fade"
+                    }
+                }
+            }
+        ],
+        "ref": "warriorIdle/animations/Animations.animation"
+    },
+    "warriorIdle/animations/Take_001.animstate": {
+        "clipSource": {
+            "clipRef": "warriorIdle/animations/Take_001.clip",
+            "loopCount": -1,
+            "timeScale": 1,
+            "type": "Clip"
+        },
+        "name": "Idle",
+        "ref": "warriorIdle/animations/Take_001.animstate"
+    },
+    "warriorIdle/animations/Take_001.clip": {
+        "binaryRef": "warriorIdle/binaries/1386702961_warriorIdle_Take_001.bin",
+        "channels": [
+            {
+                "blendType": "Linear",
+                "jointIndex": 0,
+                "jointName": "Bip01",
+                "name": "_jnt0",
+                "rotationSamples": [
+                    0,
+                    244,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    976,
+                    183,
+                    "float32"
+                ],
+                "times": [
+                    2440,
+                    61,
+                    "float32"
+                ],
+                "translationSamples": [
+                    1708,
+                    183,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 1,
+                "jointName": "Bip01 Pelvis",
+                "name": "_jnt1",
+                "rotationSamples": [
+                    2684,
+                    244,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    3660,
+                    183,
+                    "float32"
+                ],
+                "times": [
+                    5124,
+                    61,
+                    "float32"
+                ],
+                "translationSamples": [
+                    4392,
+                    183,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 2,
+                "jointName": "Bip01 Spine",
+                "name": "_jnt2",
+                "rotationSamples": [
+                    5368,
+                    244,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    6344,
+                    183,
+                    "float32"
+                ],
+                "times": [
+                    7808,
+                    61,
+                    "float32"
+                ],
+                "translationSamples": [
+                    7076,
+                    183,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 3,
+                "jointName": "Bip01 Spine1",
+                "name": "_jnt3",
+                "rotationSamples": [
+                    8052,
+                    244,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    9028,
+                    183,
+                    "float32"
+                ],
+                "times": [
+                    10492,
+                    61,
+                    "float32"
+                ],
+                "translationSamples": [
+                    9760,
+                    183,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 4,
+                "jointName": "Bip01 Spine2",
+                "name": "_jnt4",
+                "rotationSamples": [
+                    10736,
+                    244,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    11712,
+                    183,
+                    "float32"
+                ],
+                "times": [
+                    13176,
+                    61,
+                    "float32"
+                ],
+                "translationSamples": [
+                    12444,
+                    183,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 5,
+                "jointName": "Bip01 Neck",
+                "name": "_jnt5",
+                "rotationSamples": [
+                    13420,
+                    244,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    14396,
+                    183,
+                    "float32"
+                ],
+                "times": [
+                    15860,
+                    61,
+                    "float32"
+                ],
+                "translationSamples": [
+                    15128,
+                    183,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 6,
+                "jointName": "Bip01 Head",
+                "name": "_jnt6",
+                "rotationSamples": [
+                    16104,
+                    244,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    17080,
+                    183,
+                    "float32"
+                ],
+                "times": [
+                    18544,
+                    61,
+                    "float32"
+                ],
+                "translationSamples": [
+                    17812,
+                    183,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 7,
+                "jointName": "Bip01 HeadNub",
+                "name": "_jnt7",
+                "rotationSamples": [
+                    18788,
+                    244,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    19764,
+                    183,
+                    "float32"
+                ],
+                "times": [
+                    21228,
+                    61,
+                    "float32"
+                ],
+                "translationSamples": [
+                    20496,
+                    183,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 8,
+                "jointName": "Bip01 L Clavicle",
+                "name": "_jnt8",
+                "rotationSamples": [
+                    21472,
+                    244,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    22448,
+                    183,
+                    "float32"
+                ],
+                "times": [
+                    23912,
+                    61,
+                    "float32"
+                ],
+                "translationSamples": [
+                    23180,
+                    183,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 9,
+                "jointName": "Bip01 L UpperArm",
+                "name": "_jnt9",
+                "rotationSamples": [
+                    24156,
+                    244,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    25132,
+                    183,
+                    "float32"
+                ],
+                "times": [
+                    26596,
+                    61,
+                    "float32"
+                ],
+                "translationSamples": [
+                    25864,
+                    183,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 10,
+                "jointName": "Bip01 L Forearm",
+                "name": "_jnt10",
+                "rotationSamples": [
+                    26840,
+                    244,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    27816,
+                    183,
+                    "float32"
+                ],
+                "times": [
+                    29280,
+                    61,
+                    "float32"
+                ],
+                "translationSamples": [
+                    28548,
+                    183,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 11,
+                "jointName": "Bip01 L Hand",
+                "name": "_jnt11",
+                "rotationSamples": [
+                    29524,
+                    244,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    30500,
+                    183,
+                    "float32"
+                ],
+                "times": [
+                    31964,
+                    61,
+                    "float32"
+                ],
+                "translationSamples": [
+                    31232,
+                    183,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 12,
+                "jointName": "Bip01 R Clavicle",
+                "name": "_jnt12",
+                "rotationSamples": [
+                    32208,
+                    244,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    33184,
+                    183,
+                    "float32"
+                ],
+                "times": [
+                    34648,
+                    61,
+                    "float32"
+                ],
+                "translationSamples": [
+                    33916,
+                    183,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 13,
+                "jointName": "Bip01 R UpperArm",
+                "name": "_jnt13",
+                "rotationSamples": [
+                    34892,
+                    244,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    35868,
+                    183,
+                    "float32"
+                ],
+                "times": [
+                    37332,
+                    61,
+                    "float32"
+                ],
+                "translationSamples": [
+                    36600,
+                    183,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 14,
+                "jointName": "Bip01 R Forearm",
+                "name": "_jnt14",
+                "rotationSamples": [
+                    37576,
+                    244,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    38552,
+                    183,
+                    "float32"
+                ],
+                "times": [
+                    40016,
+                    61,
+                    "float32"
+                ],
+                "translationSamples": [
+                    39284,
+                    183,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 15,
+                "jointName": "Bip01 R Hand",
+                "name": "_jnt15",
+                "rotationSamples": [
+                    40260,
+                    244,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    41236,
+                    183,
+                    "float32"
+                ],
+                "times": [
+                    42700,
+                    61,
+                    "float32"
+                ],
+                "translationSamples": [
+                    41968,
+                    183,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 16,
+                "jointName": "Bip01 L Thigh",
+                "name": "_jnt16",
+                "rotationSamples": [
+                    42944,
+                    244,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    43920,
+                    183,
+                    "float32"
+                ],
+                "times": [
+                    45384,
+                    61,
+                    "float32"
+                ],
+                "translationSamples": [
+                    44652,
+                    183,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 17,
+                "jointName": "Bip01 L Calf",
+                "name": "_jnt17",
+                "rotationSamples": [
+                    45628,
+                    244,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    46604,
+                    183,
+                    "float32"
+                ],
+                "times": [
+                    48068,
+                    61,
+                    "float32"
+                ],
+                "translationSamples": [
+                    47336,
+                    183,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 18,
+                "jointName": "Bip01 L Foot",
+                "name": "_jnt18",
+                "rotationSamples": [
+                    48312,
+                    244,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    49288,
+                    183,
+                    "float32"
+                ],
+                "times": [
+                    50752,
+                    61,
+                    "float32"
+                ],
+                "translationSamples": [
+                    50020,
+                    183,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 19,
+                "jointName": "Bip01 L Toe0",
+                "name": "_jnt19",
+                "rotationSamples": [
+                    50996,
+                    244,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    51972,
+                    183,
+                    "float32"
+                ],
+                "times": [
+                    53436,
+                    61,
+                    "float32"
+                ],
+                "translationSamples": [
+                    52704,
+                    183,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 20,
+                "jointName": "Bip01 L Toe0Nub",
+                "name": "_jnt20",
+                "rotationSamples": [
+                    53680,
+                    244,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    54656,
+                    183,
+                    "float32"
+                ],
+                "times": [
+                    56120,
+                    61,
+                    "float32"
+                ],
+                "translationSamples": [
+                    55388,
+                    183,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 21,
+                "jointName": "Bip01 R Thigh",
+                "name": "_jnt21",
+                "rotationSamples": [
+                    56364,
+                    244,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    57340,
+                    183,
+                    "float32"
+                ],
+                "times": [
+                    58804,
+                    61,
+                    "float32"
+                ],
+                "translationSamples": [
+                    58072,
+                    183,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 22,
+                "jointName": "Bip01 R Calf",
+                "name": "_jnt22",
+                "rotationSamples": [
+                    59048,
+                    244,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    60024,
+                    183,
+                    "float32"
+                ],
+                "times": [
+                    61488,
+                    61,
+                    "float32"
+                ],
+                "translationSamples": [
+                    60756,
+                    183,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 23,
+                "jointName": "Bip01 R Foot",
+                "name": "_jnt23",
+                "rotationSamples": [
+                    61732,
+                    244,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    62708,
+                    183,
+                    "float32"
+                ],
+                "times": [
+                    64172,
+                    61,
+                    "float32"
+                ],
+                "translationSamples": [
+                    63440,
+                    183,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 24,
+                "jointName": "Bip01 R Toe0",
+                "name": "_jnt24",
+                "rotationSamples": [
+                    64416,
+                    244,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    65392,
+                    183,
+                    "float32"
+                ],
+                "times": [
+                    66856,
+                    61,
+                    "float32"
+                ],
+                "translationSamples": [
+                    66124,
+                    183,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 25,
+                "jointName": "Bip01 R Toe0Nub",
+                "name": "_jnt25",
+                "rotationSamples": [
+                    67100,
+                    244,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    68076,
+                    183,
+                    "float32"
+                ],
+                "times": [
+                    69540,
+                    61,
+                    "float32"
+                ],
+                "translationSamples": [
+                    68808,
+                    183,
+                    "float32"
+                ],
+                "type": "Joint"
+            }
+        ],
+        "name": "Take 001"
+    },
+    "warriorIdle/entities/Base_Boots_0.entity": {
+        "components": {
+            "meshData": {
+                "meshRef": "warriorIdle/meshes/Base_Boots_0.mesh",
+                "poseRef": "warriorIdle/skeletons/Skeleton.skeleton"
+            },
+            "meshRenderer": {
+                "castShadows": true,
+                "cullMode": "Dynamic",
+                "hidden": false,
+                "materialRefs": [
+                    "warriorIdle/materials/01_-_Default.material"
+                ],
+                "receiveShadows": true,
+                "reflectable": false
+            },
+            "transform": {
+                "parentRef": "warriorIdle/entities/RootNode.entity",
+                "rotation": [
+                    -90,
+                    0,
+                    0
+                ],
+                "scale": [
+                    0.01,
+                    0.01,
+                    0.01
+                ],
+                "translation": [
+                    0,
+                    0,
+                    0
+                ]
+            }
+        },
+        "name": "Base_Boots",
+        "nodeType": "Mesh",
+        "ref": "warriorIdle/entities/Base_Boots_0.entity"
+    },
+    "warriorIdle/entities/Base_Gloves_0.entity": {
+        "components": {
+            "meshData": {
+                "meshRef": "warriorIdle/meshes/Base_Gloves_0.mesh",
+                "poseRef": "warriorIdle/skeletons/Skeleton.skeleton"
+            },
+            "meshRenderer": {
+                "castShadows": true,
+                "cullMode": "Dynamic",
+                "hidden": false,
+                "materialRefs": [
+                    "warriorIdle/materials/01_-_Default.material"
+                ],
+                "receiveShadows": true,
+                "reflectable": false
+            },
+            "transform": {
+                "parentRef": "warriorIdle/entities/RootNode.entity",
+                "rotation": [
+                    -90,
+                    0,
+                    0
+                ],
+                "scale": [
+                    0.01,
+                    0.01,
+                    0.01
+                ],
+                "translation": [
+                    0,
+                    0,
+                    0
+                ]
+            }
+        },
+        "name": "Base_Gloves",
+        "nodeType": "Mesh",
+        "ref": "warriorIdle/entities/Base_Gloves_0.entity"
+    },
+    "warriorIdle/entities/Base_Head_0.entity": {
+        "components": {
+            "meshData": {
+                "meshRef": "warriorIdle/meshes/Base_Head_0.mesh",
+                "poseRef": "warriorIdle/skeletons/Skeleton.skeleton"
+            },
+            "meshRenderer": {
+                "castShadows": true,
+                "cullMode": "Dynamic",
+                "hidden": false,
+                "materialRefs": [
+                    "warriorIdle/materials/01_-_Default.material"
+                ],
+                "receiveShadows": true,
+                "reflectable": false
+            },
+            "transform": {
+                "parentRef": "warriorIdle/entities/RootNode.entity",
+                "rotation": [
+                    -90,
+                    0,
+                    0
+                ],
+                "scale": [
+                    0.01,
+                    0.01,
+                    0.01
+                ],
+                "translation": [
+                    0,
+                    0,
+                    0
+                ]
+            }
+        },
+        "name": "Base_Head",
+        "nodeType": "Mesh",
+        "ref": "warriorIdle/entities/Base_Head_0.entity"
+    },
+    "warriorIdle/entities/Base_Pants_0.entity": {
+        "components": {
+            "meshData": {
+                "meshRef": "warriorIdle/meshes/Base_Pants_0.mesh",
+                "poseRef": "warriorIdle/skeletons/Skeleton.skeleton"
+            },
+            "meshRenderer": {
+                "castShadows": true,
+                "cullMode": "Dynamic",
+                "hidden": false,
+                "materialRefs": [
+                    "warriorIdle/materials/01_-_Default.material"
+                ],
+                "receiveShadows": true,
+                "reflectable": false
+            },
+            "transform": {
+                "parentRef": "warriorIdle/entities/RootNode.entity",
+                "rotation": [
+                    -90,
+                    0,
+                    0
+                ],
+                "scale": [
+                    0.01,
+                    0.01,
+                    0.01
+                ],
+                "translation": [
+                    0,
+                    0,
+                    0
+                ]
+            }
+        },
+        "name": "Base_Pants",
+        "nodeType": "Mesh",
+        "ref": "warriorIdle/entities/Base_Pants_0.entity"
+    },
+    "warriorIdle/entities/Base_Tunic_0.entity": {
+        "components": {
+            "meshData": {
+                "meshRef": "warriorIdle/meshes/Base_Tunic_0.mesh",
+                "poseRef": "warriorIdle/skeletons/Skeleton.skeleton"
+            },
+            "meshRenderer": {
+                "castShadows": true,
+                "cullMode": "Dynamic",
+                "hidden": false,
+                "materialRefs": [
+                    "warriorIdle/materials/01_-_Default.material"
+                ],
+                "receiveShadows": true,
+                "reflectable": false
+            },
+            "transform": {
+                "parentRef": "warriorIdle/entities/RootNode.entity",
+                "rotation": [
+                    -90,
+                    0,
+                    0
+                ],
+                "scale": [
+                    0.01,
+                    0.01,
+                    0.01
+                ],
+                "translation": [
+                    0,
+                    0,
+                    0
+                ]
+            }
+        },
+        "name": "Base_Tunic",
+        "nodeType": "Mesh",
+        "ref": "warriorIdle/entities/Base_Tunic_0.entity"
+    },
+    "warriorIdle/entities/Leather_Helm_0.entity": {
+        "components": {
+            "meshData": {
+                "meshRef": "warriorIdle/meshes/Leather_Helm_0.mesh",
+                "poseRef": "warriorIdle/skeletons/Skeleton.skeleton"
+            },
+            "meshRenderer": {
+                "castShadows": true,
+                "cullMode": "Dynamic",
+                "hidden": false,
+                "materialRefs": [
+                    "warriorIdle/materials/01_-_Default.material"
+                ],
+                "receiveShadows": true,
+                "reflectable": false
+            },
+            "transform": {
+                "parentRef": "warriorIdle/entities/RootNode.entity",
+                "rotation": [
+                    -90,
+                    0,
+                    0
+                ],
+                "scale": [
+                    0.01,
+                    0.01,
+                    0.01
+                ],
+                "translation": [
+                    0,
+                    0,
+                    0
+                ]
+            }
+        },
+        "name": "Leather_Helm",
+        "nodeType": "Mesh",
+        "ref": "warriorIdle/entities/Leather_Helm_0.entity"
+    },
+    "warriorIdle/entities/RootNode.entity": {
+        "components": {
+            "animation": {
+                "layersRef": "warriorIdle/animations/Animations.animation",
+                "poseRef": "warriorIdle/skeletons/Skeleton.skeleton"
+            },
+            "transform": {
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "translation": [
+                    0,
+                    0,
+                    0
+                ]
+            }
+        },
+        "name": "warriorIdle",
+        "nodeType": "Null",
+        "ref": "warriorIdle/entities/RootNode.entity"
+    },
+    "warriorIdle/materials/01_-_Default.material": {
+        "blendState": {
+            "blendDst": "OneMinusSrcAlphaFactor",
+            "blendEquation": "AddEquation",
+            "blendSrc": "SrcAlphaFactor",
+            "blending": "NoBlending"
+        },
+        "cullState": {
+            "cullFace": "Back",
+            "enabled": true,
+            "frontFace": "CCW"
+        },
+        "depthState": {
+            "enabled": true,
+            "write": true
+        },
+        "name": "01 - Default",
+        "ref": "warriorIdle/materials/01_-_Default.material",
+        "renderQueue": -1,
+        "shaderRef": "GOO_ENGINE_SHADERS/uber",
+        "texturesMapping": {
+            "DIFFUSE_MAP": {
+                "enabled": true,
+                "textureRef": "warriorIdle/textures/leather.texture"
+            }
+        },
+        "type": "Phong",
+        "uniforms": {
+            "discardThreshold": {
+                "enabled": false,
+                "value": 0
+            },
+            "fresnel": {
+                "enabled": true,
+                "value": 0
+            },
+            "materialAmbient": {
+                "enabled": true,
+                "value": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            "materialDiffuse": {
+                "enabled": true,
+                "value": [
+                    0,
+                    0,
+                    0,
+                    1
+                ]
+            },
+            "materialEmissive": {
+                "enabled": true,
+                "value": [
+                    0,
+                    0,
+                    0,
+                    1
+                ]
+            },
+            "materialSpecular": {
+                "enabled": true,
+                "value": [
+                    0,
+                    0,
+                    0,
+                    1
+                ]
+            },
+            "materialSpecularPower": {
+                "enabled": true,
+                "value": 2.0000000206574
+            },
+            "normalMultiplier": {
+                "enabled": true,
+                "value": 1
+            },
+            "opacity": {
+                "enabled": true,
+                "value": 1
+            },
+            "reflectivity": {
+                "enabled": true,
+                "value": 0
+            }
+        }
+    },
+    "warriorIdle/meshes/Base_Boots_0.mesh": {
+        "binaryRef": "warriorIdle/binaries/1386702961_data.bin",
+        "boundingVolume": {
+            "max": [
+                33.6789436340332,
+                13.2403135299683,
+                67.1792373657227
+            ],
+            "min": [
+                -33.0595893859863,
+                -31.7911682128906,
+                0.0797019004821777
+            ],
+            "type": "BoundingBox"
+        },
+        "colors": [
+            9520,
+            880,
+            "float32"
+        ],
+        "indexLengths": [
+            720
+        ],
+        "indexModes": [
+            "Triangles"
+        ],
+        "indices": [
+            0,
+            720,
+            "uint8"
+        ],
+        "joints": [
+            13040,
+            880,
+            "uint8"
+        ],
+        "name": "Base_Boots",
+        "normals": [
+            3360,
+            660,
+            "float32"
+        ],
+        "tangents": [
+            6000,
+            880,
+            "float32"
+        ],
+        "textureCoords": [
+            [
+                17440,
+                440,
+                "float32"
+            ],
+            [
+                19200,
+                440,
+                "float32"
+            ]
+        ],
+        "type": "SkinnedMesh",
+        "vertexCount": 220,
+        "vertices": [
+            720,
+            660,
+            "float32"
+        ],
+        "weights": [
+            13920,
+            880,
+            "float32"
+        ]
+    },
+    "warriorIdle/meshes/Base_Gloves_0.mesh": {
+        "binaryRef": "warriorIdle/binaries/1386702961_data.bin",
+        "boundingVolume": {
+            "max": [
+                49.3519096374512,
+                12.6863279342651,
+                170.144256591797
+            ],
+            "min": [
+                -48.7325553894043,
+                -33.9631652832031,
+                133.523086547852
+            ],
+            "type": "BoundingBox"
+        },
+        "colors": [
+            42560,
+            672,
+            "float32"
+        ],
+        "indexLengths": [
+            726
+        ],
+        "indexModes": [
+            "Triangles"
+        ],
+        "indices": [
+            35112,
+            726,
+            "uint8"
+        ],
+        "joints": [
+            45248,
+            672,
+            "uint8"
+        ],
+        "name": "Base_Gloves",
+        "normals": [
+            37856,
+            504,
+            "float32"
+        ],
+        "tangents": [
+            39872,
+            672,
+            "float32"
+        ],
+        "textureCoords": [
+            [
+                48608,
+                336,
+                "float32"
+            ],
+            [
+                49952,
+                336,
+                "float32"
+            ]
+        ],
+        "type": "SkinnedMesh",
+        "vertexCount": 168,
+        "vertices": [
+            35840,
+            504,
+            "float32"
+        ],
+        "weights": [
+            45920,
+            672,
+            "float32"
+        ]
+    },
+    "warriorIdle/meshes/Base_Head_0.mesh": {
+        "binaryRef": "warriorIdle/binaries/1386702961_data.bin",
+        "boundingVolume": {
+            "max": [
+                14.5994396209717,
+                14.6827344894409,
+                248.946990966797
+            ],
+            "min": [
+                -13.9800863265991,
+                -20.0039100646973,
+                203.299362182617
+            ],
+            "type": "BoundingBox"
+        },
+        "colors": [
+            62568,
+            1012,
+            "float32"
+        ],
+        "indexLengths": [
+            1152
+        ],
+        "indexModes": [
+            "Triangles"
+        ],
+        "indices": [
+            51296,
+            1152,
+            "uint8"
+        ],
+        "joints": [
+            66616,
+            1012,
+            "uint8"
+        ],
+        "name": "Base_Head",
+        "normals": [
+            55484,
+            759,
+            "float32"
+        ],
+        "tangents": [
+            58520,
+            1012,
+            "float32"
+        ],
+        "textureCoords": [
+            [
+                71676,
+                506,
+                "float32"
+            ],
+            [
+                73700,
+                506,
+                "float32"
+            ]
+        ],
+        "type": "SkinnedMesh",
+        "vertexCount": 253,
+        "vertices": [
+            52448,
+            759,
+            "float32"
+        ],
+        "weights": [
+            67628,
+            1012,
+            "float32"
+        ]
+    },
+    "warriorIdle/meshes/Base_Pants_0.mesh": {
+        "binaryRef": "warriorIdle/binaries/1386702961_data.bin",
+        "boundingVolume": {
+            "max": [
+                27.862548828125,
+                13.6951990127563,
+                133.034210205078
+            ],
+            "min": [
+                -27.2431945800781,
+                -18.8956832885742,
+                64.4853744506836
+            ],
+            "type": "BoundingBox"
+        },
+        "colors": [
+            80924,
+            472,
+            "float32"
+        ],
+        "indexLengths": [
+            480
+        ],
+        "indexModes": [
+            "Triangles"
+        ],
+        "indices": [
+            75724,
+            480,
+            "uint8"
+        ],
+        "joints": [
+            82812,
+            472,
+            "uint8"
+        ],
+        "name": "Base_Pants",
+        "normals": [
+            77620,
+            354,
+            "float32"
+        ],
+        "tangents": [
+            79036,
+            472,
+            "float32"
+        ],
+        "textureCoords": [
+            [
+                85172,
+                236,
+                "float32"
+            ],
+            [
+                86116,
+                236,
+                "float32"
+            ]
+        ],
+        "type": "SkinnedMesh",
+        "vertexCount": 118,
+        "vertices": [
+            76204,
+            354,
+            "float32"
+        ],
+        "weights": [
+            83284,
+            472,
+            "float32"
+        ]
+    },
+    "warriorIdle/meshes/Base_Tunic_0.mesh": {
+        "binaryRef": "warriorIdle/binaries/1386702961_data.bin",
+        "boundingVolume": {
+            "max": [
+                48.7258949279785,
+                22.1888771057129,
+                216.851119995117
+            ],
+            "min": [
+                -48.1065406799316,
+                -25.9414386749268,
+                120.55940246582
+            ],
+            "type": "BoundingBox"
+        },
+        "colors": [
+            110500,
+            1960,
+            "float32"
+        ],
+        "indexLengths": [
+            1920
+        ],
+        "indexModes": [
+            "Triangles"
+        ],
+        "indices": [
+            87060,
+            1920,
+            "uint16"
+        ],
+        "joints": [
+            118340,
+            1960,
+            "uint8"
+        ],
+        "name": "Base_Tunic",
+        "normals": [
+            96780,
+            1470,
+            "float32"
+        ],
+        "tangents": [
+            102660,
+            1960,
+            "float32"
+        ],
+        "textureCoords": [
+            [
+                128140,
+                980,
+                "float32"
+            ],
+            [
+                132060,
+                980,
+                "float32"
+            ]
+        ],
+        "type": "SkinnedMesh",
+        "vertexCount": 490,
+        "vertices": [
+            90900,
+            1470,
+            "float32"
+        ],
+        "weights": [
+            120300,
+            1960,
+            "float32"
+        ]
+    },
+    "warriorIdle/meshes/Leather_Helm_0.mesh": {
+        "binaryRef": "warriorIdle/binaries/1386702961_data.bin",
+        "boundingVolume": {
+            "max": [
+                13.3723039627075,
+                15.4394006729126,
+                251.695068359375
+            ],
+            "min": [
+                -12.8774337768555,
+                -17.8619632720947,
+                229.052185058594
+            ],
+            "type": "BoundingBox"
+        },
+        "colors": [
+            27416,
+            592,
+            "float32"
+        ],
+        "indexLengths": [
+            534
+        ],
+        "indexModes": [
+            "Triangles"
+        ],
+        "indices": [
+            20960,
+            534,
+            "uint8"
+        ],
+        "joints": [
+            29784,
+            592,
+            "uint8"
+        ],
+        "name": "Leather_Helm",
+        "normals": [
+            23272,
+            444,
+            "float32"
+        ],
+        "tangents": [
+            25048,
+            592,
+            "float32"
+        ],
+        "textureCoords": [
+            [
+                32744,
+                296,
+                "float32"
+            ],
+            [
+                33928,
+                296,
+                "float32"
+            ]
+        ],
+        "type": "SkinnedMesh",
+        "vertexCount": 148,
+        "vertices": [
+            21496,
+            444,
+            "float32"
+        ],
+        "weights": [
+            30376,
+            592,
+            "float32"
+        ]
+    },
+    "warriorIdle/skeletons/Skeleton.skeleton": {
+        "joints": [
+            {
+                "index": 0,
+                "inverseBindPose": {
+                    "matrix": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bip01",
+                "parentIndex": -32768
+            },
+            {
+                "index": 1,
+                "inverseBindPose": {
+                    "matrix": [
+                        6.123233995730879e-17,
+                        -6.340466569151027e-37,
+                        0.999999999999039,
+                        -136.353683471549,
+                        2.7577071810014234e-06,
+                        -1.00000005959704,
+                        -1.6886086360995393e-22,
+                        2.3024800747425998e-20,
+                        1.00000005959608,
+                        2.7577071809987646e-06,
+                        -6.123234360657512e-17,
+                        8.349255598360072e-15,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bip01 Pelvis",
+                "parentIndex": 0
+            },
+            {
+                "index": 2,
+                "inverseBindPose": {
+                    "matrix": [
+                        5.4392822810818536e-08,
+                        -0.039676569330328496,
+                        0.9992125270145978,
+                        -150.361846410701,
+                        -1.4037726595839727e-06,
+                        -0.9992125863757559,
+                        -0.03967657168735532,
+                        5.987492476907606,
+                        1.00000005960267,
+                        -1.4005092401094363e-06,
+                        -1.1004688696635782e-07,
+                        1.6606910397612918e-05,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bip01 Spine",
+                "parentIndex": 1
+            },
+            {
+                "index": 3,
+                "inverseBindPose": {
+                    "matrix": [
+                        -1.9341366280464224e-08,
+                        0.01410840204213201,
+                        0.999900482847178,
+                        -171.72785992904699,
+                        -1.402829655900955e-06,
+                        -0.9999005424248594,
+                        0.01410840288273439,
+                        -3.234048518954011,
+                        1.00000005960268,
+                        -1.402417142823337e-06,
+                        3.913112653329047e-08,
+                        -8.969957055789633e-06,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bip01 Spine1",
+                "parentIndex": 2
+            },
+            {
+                "index": 4,
+                "inverseBindPose": {
+                    "matrix": [
+                        -3.1787746901229885e-08,
+                        0.023187344581638146,
+                        0.9997312110005379,
+                        -192.98291614176898,
+                        -1.4030620089921483e-06,
+                        -0.9997312705711829,
+                        0.023187345963249947,
+                        -4.9696658959664965,
+                        1.00000005960268,
+                        -1.401947601533261e-06,
+                        6.431247740447198e-08,
+                        -1.3783864294315679e-05,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bip01 Spine2",
+                "parentIndex": 3
+            },
+            {
+                "index": 5,
+                "inverseBindPose": {
+                    "matrix": [
+                        2.49067885985084e-07,
+                        -0.1816811507312705,
+                        0.9833575614359888,
+                        -210.259642175732,
+                        -1.4255088024257204e-06,
+                        -0.983357616409135,
+                        -0.18168116088752476,
+                        40.21605638952801,
+                        1.00000005960255,
+                        -1.3565337401127874e-06,
+                        -5.039108165457566e-07,
+                        0.00010970323344288036,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bip01 Neck",
+                "parentIndex": 4
+            },
+            {
+                "index": 6,
+                "inverseBindPose": {
+                    "matrix": [
+                        5.839277756942402e-08,
+                        -0.04259150772050083,
+                        0.9990925611206949,
+                        -219.136748219961,
+                        -1.4039375804404408e-06,
+                        -0.999092620456733,
+                        -0.04259151024992551,
+                        9.712349507000152,
+                        1.00000005960267,
+                        -1.4001765815092297e-06,
+                        -1.1813561357999794e-07,
+                        2.5098997096031693e-05,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bip01 Head",
+                "parentIndex": 5
+            },
+            {
+                "index": 7,
+                "inverseBindPose": {
+                    "matrix": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bip01 HeadNub",
+                "parentIndex": 6
+            },
+            {
+                "index": 8,
+                "inverseBindPose": {
+                    "matrix": [
+                        0.9640646205201479,
+                        0.1815291499599647,
+                        -0.19397592705162622,
+                        25.99994842177111,
+                        -0.189566392649616,
+                        0.9815855757851109,
+                        -0.02354857779169692,
+                        6.441355348571902,
+                        0.186129192146652,
+                        0.05947365896911585,
+                        0.9807236116553029,
+                        -209.00126634414795,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bip01 L Clavicle",
+                "parentIndex": 5
+            },
+            {
+                "index": 9,
+                "inverseBindPose": {
+                    "matrix": [
+                        0.12750972275246472,
+                        -0.19315966201910587,
+                        -0.9728467544085515,
+                        197.969348007882,
+                        0.08813229198459545,
+                        0.9791797282063279,
+                        -0.18286569846034478,
+                        30.528946918241907,
+                        0.9879140507547768,
+                        -0.06242205677724132,
+                        0.14187853274850998,
+                        -60.592278415743785,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bip01 L UpperArm",
+                "parentIndex": 8
+            },
+            {
+                "index": 10,
+                "inverseBindPose": {
+                    "matrix": [
+                        0.07504583962108842,
+                        -0.6082726786920115,
+                        -0.7901725620319365,
+                        129.12247831681591,
+                        0.1356250877054579,
+                        0.7912698680598559,
+                        -0.5962365263873342,
+                        98.15332061802161,
+                        0.9879140447198991,
+                        -0.062422147033999266,
+                        0.14187853505980924,
+                        -60.59228059370381,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bip01 L Forearm",
+                "parentIndex": 9
+            },
+            {
+                "index": 11,
+                "inverseBindPose": {
+                    "matrix": [
+                        0.05540285809838752,
+                        -0.6069123971934466,
+                        -0.7928354805785547,
+                        100.73306190744104,
+                        -0.9698303225094546,
+                        0.15608951060806342,
+                        -0.1872570469336945,
+                        68.45810006450014,
+                        0.23740190843267633,
+                        0.7792904097221311,
+                        -0.5799541994432508,
+                        91.55221369441824,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bip01 L Hand",
+                "parentIndex": 10
+            },
+            {
+                "index": 12,
+                "inverseBindPose": {
+                    "matrix": [
+                        -0.964065139359095,
+                        0.18152650546167284,
+                        -0.19397593550264008,
+                        25.999951725517708,
+                        0.18956370414843318,
+                        0.9815861361022598,
+                        -0.023548579617260278,
+                        6.44135544036345,
+                        0.18612935994528493,
+                        -0.05947314948902098,
+                        -0.9807236131485138,
+                        209.00126637238594,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bip01 R Clavicle",
+                "parentIndex": 5
+            },
+            {
+                "index": 13,
+                "inverseBindPose": {
+                    "matrix": [
+                        -0.12750910330024867,
+                        -0.19315989478350026,
+                        -0.972846695041478,
+                        197.969338164867,
+                        -0.08813505319660442,
+                        0.9791795120865965,
+                        -0.18286559519925424,
+                        30.52892330022933,
+                        0.9879138369711873,
+                        0.062424866244997684,
+                        -0.14187845709850233,
+                        60.592259908225074,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bip01 R UpperArm",
+                "parentIndex": 12
+            },
+            {
+                "index": 14,
+                "inverseBindPose": {
+                    "matrix": [
+                        -0.07504408094943482,
+                        -0.6082729740058734,
+                        -0.7901724989076258,
+                        129.1224612302511,
+                        -0.1356272503313402,
+                        0.7912693916851331,
+                        -0.5962365995002791,
+                        98.15332221031419,
+                        0.9879138346652551,
+                        0.06242489014983963,
+                        -0.1418784626370867,
+                        60.59225743681071,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bip01 R Forearm",
+                "parentIndex": 13
+            },
+            {
+                "index": 15,
+                "inverseBindPose": {
+                    "matrix": [
+                        -0.055401099757942204,
+                        -0.606912635579073,
+                        -0.7928354209307746,
+                        100.73305434039904,
+                        0.9698298923502416,
+                        0.15609219669790872,
+                        -0.18725698321007256,
+                        68.4580878683402,
+                        0.23740403035440122,
+                        -0.7792896637258436,
+                        0.5799542845638415,
+                        -91.55222681032798,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bip01 R Hand",
+                "parentIndex": 14
+            },
+            {
+                "index": 16,
+                "inverseBindPose": {
+                    "matrix": [
+                        0.04393408427870949,
+                        0.028148169910696227,
+                        -0.998637765913027,
+                        135.595897855189,
+                        0.11131187983232958,
+                        -0.9935169080774383,
+                        -0.023106774063207033,
+                        1.7013796206216982,
+                        -0.9928139951737011,
+                        -0.11014508050024695,
+                        -0.04678248487335973,
+                        19.3058074614875,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bip01 L Thigh",
+                "parentIndex": 2
+            },
+            {
+                "index": 17,
+                "inverseBindPose": {
+                    "matrix": [
+                        0.05620132537593961,
+                        -0.08402189273637467,
+                        -0.9948778609823686,
+                        74.43845951377148,
+                        0.105650139791726,
+                        -0.990357712756085,
+                        0.08960839404573036,
+                        -6.7323382206689715,
+                        -0.992813993717391,
+                        -0.11014509160145673,
+                        -0.046782489642260006,
+                        19.305807663134797,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bip01 L Calf",
+                "parentIndex": 16
+            },
+            {
+                "index": 18,
+                "inverseBindPose": {
+                    "matrix": [
+                        0.0031295288103899955,
+                        -0.012400100839816167,
+                        -0.9999182144316862,
+                        13.7003521691982,
+                        0.24468547575267932,
+                        -0.9695182417743382,
+                        0.012788920158998376,
+                        -8.266060297426295,
+                        -0.969597556624418,
+                        -0.24470549324980917,
+                        -1.069646008634149e-08,
+                        17.743330785338795,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bip01 L Foot",
+                "parentIndex": 17
+            },
+            {
+                "index": 19,
+                "inverseBindPose": {
+                    "matrix": [
+                        0.24468627008282456,
+                        -0.9695180414283296,
+                        0.012788910597934234,
+                        -25.614862122143208,
+                        -0.003129494247369888,
+                        0.0124000997020149,
+                        0.999918214559551,
+                        -2.05284756892654,
+                        -0.9695973562802369,
+                        -0.244706287072985,
+                        3.301137069313492e-08,
+                        17.7433251137856,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bip01 L Toe0",
+                "parentIndex": 18
+            },
+            {
+                "index": 20,
+                "inverseBindPose": {
+                    "matrix": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bip01 L Toe0Nub",
+                "parentIndex": 19
+            },
+            {
+                "index": 21,
+                "inverseBindPose": {
+                    "matrix": [
+                        -0.04393433320443564,
+                        0.028148050272990457,
+                        -0.998637750713324,
+                        135.59589354641295,
+                        -0.11130922171227783,
+                        -0.9935171531037501,
+                        -0.023106751492947733,
+                        1.7013756847929924,
+                        -0.9928142166118062,
+                        0.11014241902148988,
+                        0.046782654588371275,
+                        -19.305829553904093,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bip01 R Thigh",
+                "parentIndex": 2
+            },
+            {
+                "index": 22,
+                "inverseBindPose": {
+                    "matrix": [
+                        -0.056201268442264196,
+                        -0.08402204017180784,
+                        -0.9948778423189448,
+                        74.43845477627158,
+                        -0.10564746359843682,
+                        -0.9903580460364292,
+                        0.08960841341353934,
+                        -6.732341342436712,
+                        -0.9928142173561172,
+                        0.11014241156124639,
+                        0.04678265635670637,
+                        -19.305829587676115,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bip01 R Calf",
+                "parentIndex": 21
+            },
+            {
+                "index": 23,
+                "inverseBindPose": {
+                    "matrix": [
+                        -0.0031294948170603933,
+                        -0.012400110152820247,
+                        -0.9999182144134823,
+                        13.700354006454402,
+                        -0.2446827934565598,
+                        -0.9695188728750538,
+                        0.012788920302182784,
+                        -8.266064962640394,
+                        -0.9695981877820775,
+                        0.24470281073559474,
+                        1.0696343868188085e-08,
+                        -17.743350490888393,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bip01 R Foot",
+                "parentIndex": 22
+            },
+            {
+                "index": 24,
+                "inverseBindPose": {
+                    "matrix": [
+                        -0.24468359592352468,
+                        -0.9695186704947193,
+                        0.012788909461010014,
+                        -25.6148685912566,
+                        0.003129544809722526,
+                        0.012400086354674803,
+                        0.9999182145465592,
+                        -2.052847842465201,
+                        -0.9695979851139351,
+                        0.24470361377630032,
+                        5.440415309324941e-08,
+                        -17.743345166828696,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bip01 R Toe0",
+                "parentIndex": 23
+            },
+            {
+                "index": 25,
+                "inverseBindPose": {
+                    "matrix": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bip01 R Toe0Nub",
+                "parentIndex": 24
+            }
+        ],
+        "name": "Skeleton"
+    },
+    "warriorIdle/textures/leather.texture": {
+        "anisotropy": 1,
+        "fileName": "C:\\Users\\Bunzaga\\Desktop\\[Dungeon]\\leather.jpg",
+        "flipY": true,
+        "magFilter": "Bilinear",
+        "minFilter": "Trilinear",
+        "name": "leather",
+        "offset": [
+            0,
+            0
+        ],
+        "realUrl": "C:/Users/Bunzaga/Desktop/[Dungeon]/leather.psd",
+        "ref": "warriorIdle/textures/leather.texture",
+        "repeat": [
+            1,
+            1
+        ],
+        "url": "warriorIdle/images/leather_copy.png",
+        "wrapU": "Repeat",
+        "wrapV": "Repeat"
+    },
+    "warriorIdle/warriorIdle.group": {
+        "libraryRefs": [
+            "warriorIdle/meshes/Base_Boots_0.mesh",
+            "warriorIdle/meshes/Leather_Helm_0.mesh",
+            "warriorIdle/entities/Base_Tunic_0.entity",
+            "warriorIdle/entities/Base_Head_0.entity",
+            "warriorIdle/skeletons/Skeleton.skeleton",
+            "warriorIdle/meshes/Base_Gloves_0.mesh",
+            "warriorIdle/animations/Take_001.animstate",
+            "warriorIdle/animations/Animations.animation",
+            "warriorIdle/meshes/Base_Head_0.mesh",
+            "warriorIdle/meshes/Base_Pants_0.mesh",
+            "warriorIdle/entities/RootNode.entity",
+            "warriorIdle/textures/leather.texture",
+            "warriorIdle/animations/Take_001.clip",
+            "warriorIdle/meshes/Base_Tunic_0.mesh",
+            "warriorIdle/materials/01_-_Default.material",
+            "warriorIdle/entities/Base_Boots_0.entity",
+            "warriorIdle/entities/Leather_Helm_0.entity",
+            "warriorIdle/entities/Base_Gloves_0.entity",
+            "warriorIdle/entities/Base_Pants_0.entity",
+            "warriorIdle/binaries/1386702961_data.bin",
+            "warriorIdle/binaries/1386702961_warriorIdle_Take_001.bin",
+            "warriorIdle/images/leather_copy.png"
+        ],
+        "name": "warriorIdle",
+        "ref": "warriorIdle/warriorIdle.group"
+    },
+    "warriorrun/animations/Take.animstate": {
+        "clipSource": {
+            "clipRef": "warriorrun/animations/Take_001.clip",
+            "loopCount": -1,
+            "timeScale": 1,
+            "type": "Clip"
+        },
+        "name": "Run",
+        "ref": "warriorrun/animations/Take.animstate"
+    },
+    "warriorrun/animations/Take_001.clip": {
+        "binaryRef": "warriorrun/binaries/1386702982_warriorrun_Take_001.bin",
+        "channels": [
+            {
+                "blendType": "Linear",
+                "jointIndex": 0,
+                "jointName": "Bip01",
+                "name": "_jnt0",
+                "rotationSamples": [
+                    0,
+                    244,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    976,
+                    183,
+                    "float32"
+                ],
+                "times": [
+                    2440,
+                    61,
+                    "float32"
+                ],
+                "translationSamples": [
+                    1708,
+                    183,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 1,
+                "jointName": "Bip01 Pelvis",
+                "name": "_jnt1",
+                "rotationSamples": [
+                    2684,
+                    244,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    3660,
+                    183,
+                    "float32"
+                ],
+                "times": [
+                    5124,
+                    61,
+                    "float32"
+                ],
+                "translationSamples": [
+                    4392,
+                    183,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 2,
+                "jointName": "Bip01 Spine",
+                "name": "_jnt2",
+                "rotationSamples": [
+                    5368,
+                    244,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    6344,
+                    183,
+                    "float32"
+                ],
+                "times": [
+                    7808,
+                    61,
+                    "float32"
+                ],
+                "translationSamples": [
+                    7076,
+                    183,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 3,
+                "jointName": "Bip01 Spine1",
+                "name": "_jnt3",
+                "rotationSamples": [
+                    8052,
+                    244,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    9028,
+                    183,
+                    "float32"
+                ],
+                "times": [
+                    10492,
+                    61,
+                    "float32"
+                ],
+                "translationSamples": [
+                    9760,
+                    183,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 4,
+                "jointName": "Bip01 Spine2",
+                "name": "_jnt4",
+                "rotationSamples": [
+                    10736,
+                    244,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    11712,
+                    183,
+                    "float32"
+                ],
+                "times": [
+                    13176,
+                    61,
+                    "float32"
+                ],
+                "translationSamples": [
+                    12444,
+                    183,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 5,
+                "jointName": "Bip01 Neck",
+                "name": "_jnt5",
+                "rotationSamples": [
+                    13420,
+                    244,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    14396,
+                    183,
+                    "float32"
+                ],
+                "times": [
+                    15860,
+                    61,
+                    "float32"
+                ],
+                "translationSamples": [
+                    15128,
+                    183,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 6,
+                "jointName": "Bip01 Head",
+                "name": "_jnt6",
+                "rotationSamples": [
+                    16104,
+                    244,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    17080,
+                    183,
+                    "float32"
+                ],
+                "times": [
+                    18544,
+                    61,
+                    "float32"
+                ],
+                "translationSamples": [
+                    17812,
+                    183,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 7,
+                "jointName": "Bip01 HeadNub",
+                "name": "_jnt7",
+                "rotationSamples": [
+                    18788,
+                    244,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    19764,
+                    183,
+                    "float32"
+                ],
+                "times": [
+                    21228,
+                    61,
+                    "float32"
+                ],
+                "translationSamples": [
+                    20496,
+                    183,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 8,
+                "jointName": "Bip01 L Clavicle",
+                "name": "_jnt8",
+                "rotationSamples": [
+                    21472,
+                    244,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    22448,
+                    183,
+                    "float32"
+                ],
+                "times": [
+                    23912,
+                    61,
+                    "float32"
+                ],
+                "translationSamples": [
+                    23180,
+                    183,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 9,
+                "jointName": "Bip01 L UpperArm",
+                "name": "_jnt9",
+                "rotationSamples": [
+                    24156,
+                    320,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    25436,
+                    240,
+                    "float32"
+                ],
+                "times": [
+                    27356,
+                    80,
+                    "float32"
+                ],
+                "translationSamples": [
+                    26396,
+                    240,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 10,
+                "jointName": "Bip01 L Forearm",
+                "name": "_jnt10",
+                "rotationSamples": [
+                    27676,
+                    244,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    28652,
+                    183,
+                    "float32"
+                ],
+                "times": [
+                    30116,
+                    61,
+                    "float32"
+                ],
+                "translationSamples": [
+                    29384,
+                    183,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 11,
+                "jointName": "Bip01 L Hand",
+                "name": "_jnt11",
+                "rotationSamples": [
+                    30360,
+                    244,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    31336,
+                    183,
+                    "float32"
+                ],
+                "times": [
+                    32800,
+                    61,
+                    "float32"
+                ],
+                "translationSamples": [
+                    32068,
+                    183,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 12,
+                "jointName": "Bip01 R Clavicle",
+                "name": "_jnt12",
+                "rotationSamples": [
+                    33044,
+                    244,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    34020,
+                    183,
+                    "float32"
+                ],
+                "times": [
+                    35484,
+                    61,
+                    "float32"
+                ],
+                "translationSamples": [
+                    34752,
+                    183,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 13,
+                "jointName": "Bip01 R UpperArm",
+                "name": "_jnt13",
+                "rotationSamples": [
+                    35728,
+                    328,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    37040,
+                    246,
+                    "float32"
+                ],
+                "times": [
+                    39008,
+                    82,
+                    "float32"
+                ],
+                "translationSamples": [
+                    38024,
+                    246,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 14,
+                "jointName": "Bip01 R Forearm",
+                "name": "_jnt14",
+                "rotationSamples": [
+                    39336,
+                    244,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    40312,
+                    183,
+                    "float32"
+                ],
+                "times": [
+                    41776,
+                    61,
+                    "float32"
+                ],
+                "translationSamples": [
+                    41044,
+                    183,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 15,
+                "jointName": "Bip01 R Hand",
+                "name": "_jnt15",
+                "rotationSamples": [
+                    42020,
+                    244,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    42996,
+                    183,
+                    "float32"
+                ],
+                "times": [
+                    44460,
+                    61,
+                    "float32"
+                ],
+                "translationSamples": [
+                    43728,
+                    183,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 16,
+                "jointName": "Bip01 L Thigh",
+                "name": "_jnt16",
+                "rotationSamples": [
+                    44704,
+                    244,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    45680,
+                    183,
+                    "float32"
+                ],
+                "times": [
+                    47144,
+                    61,
+                    "float32"
+                ],
+                "translationSamples": [
+                    46412,
+                    183,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 17,
+                "jointName": "Bip01 L Calf",
+                "name": "_jnt17",
+                "rotationSamples": [
+                    47388,
+                    264,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    48444,
+                    198,
+                    "float32"
+                ],
+                "times": [
+                    50028,
+                    66,
+                    "float32"
+                ],
+                "translationSamples": [
+                    49236,
+                    198,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 18,
+                "jointName": "Bip01 L Foot",
+                "name": "_jnt18",
+                "rotationSamples": [
+                    50292,
+                    244,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    51268,
+                    183,
+                    "float32"
+                ],
+                "times": [
+                    52732,
+                    61,
+                    "float32"
+                ],
+                "translationSamples": [
+                    52000,
+                    183,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 19,
+                "jointName": "Bip01 L Toe0",
+                "name": "_jnt19",
+                "rotationSamples": [
+                    52976,
+                    244,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    53952,
+                    183,
+                    "float32"
+                ],
+                "times": [
+                    55416,
+                    61,
+                    "float32"
+                ],
+                "translationSamples": [
+                    54684,
+                    183,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 20,
+                "jointName": "Bip01 L Toe0Nub",
+                "name": "_jnt20",
+                "rotationSamples": [
+                    55660,
+                    244,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    56636,
+                    183,
+                    "float32"
+                ],
+                "times": [
+                    58100,
+                    61,
+                    "float32"
+                ],
+                "translationSamples": [
+                    57368,
+                    183,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 21,
+                "jointName": "Bip01 R Thigh",
+                "name": "_jnt21",
+                "rotationSamples": [
+                    58344,
+                    244,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    59320,
+                    183,
+                    "float32"
+                ],
+                "times": [
+                    60784,
+                    61,
+                    "float32"
+                ],
+                "translationSamples": [
+                    60052,
+                    183,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 22,
+                "jointName": "Bip01 R Calf",
+                "name": "_jnt22",
+                "rotationSamples": [
+                    61028,
+                    272,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    62116,
+                    204,
+                    "float32"
+                ],
+                "times": [
+                    63748,
+                    68,
+                    "float32"
+                ],
+                "translationSamples": [
+                    62932,
+                    204,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 23,
+                "jointName": "Bip01 R Foot",
+                "name": "_jnt23",
+                "rotationSamples": [
+                    64020,
+                    248,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    65012,
+                    186,
+                    "float32"
+                ],
+                "times": [
+                    66500,
+                    62,
+                    "float32"
+                ],
+                "translationSamples": [
+                    65756,
+                    186,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 24,
+                "jointName": "Bip01 R Toe0",
+                "name": "_jnt24",
+                "rotationSamples": [
+                    66748,
+                    244,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    67724,
+                    183,
+                    "float32"
+                ],
+                "times": [
+                    69188,
+                    61,
+                    "float32"
+                ],
+                "translationSamples": [
+                    68456,
+                    183,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 25,
+                "jointName": "Bip01 R Toe0Nub",
+                "name": "_jnt25",
+                "rotationSamples": [
+                    69432,
+                    244,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    70408,
+                    183,
+                    "float32"
+                ],
+                "times": [
+                    71872,
+                    61,
+                    "float32"
+                ],
+                "translationSamples": [
+                    71140,
+                    183,
+                    "float32"
+                ],
+                "type": "Joint"
+            }
+        ],
+        "name": "Take 001",
+        "ref": "warriorrun/animations/Take_001.clip"
+    },
+    "warriorrun/warriorrun.group": {
+        "libraryRefs": [
+            "warriorrun/animations/Take_001.clip",
+            "warriorrun/binaries/1386702982_warriorrun_Take_001.bin"
+        ],
+        "name": "warriorrun",
+        "ref": "warriorrun/warriorrun.group"
+    }
+}

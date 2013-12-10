@@ -1,0 +1,2132 @@
+{
+    "Spider/Spider.group": {
+        "libraryRefs": [
+            "Spider/animations/Animations.animation",
+            "Spider/meshes/spider_1_0.mesh",
+            "Spider/entities/RootNode.entity",
+            "Spider/textures/spider2.texture",
+            "Spider/entities/spider_1_0.entity",
+            "Spider/animations/Take_001.animstate",
+            "Spider/materials/02_-_Default.material",
+            "Spider/animations/Take_001.clip",
+            "Spider/skeletons/Skeleton.skeleton",
+            "Spider/binaries/1386703189_data.bin",
+            "Spider/binaries/1386703189_Spider_Take_001.bin",
+            "Spider/images/spider1.png"
+        ],
+        "name": "Spider",
+        "ref": "Spider/Spider.group"
+    },
+    "Spider/animations/Animations.animation": {
+        "layers": [
+            {
+                "defaultState": "Take 001",
+                "name": "Default animation layer",
+                "states": {
+                    "Take 001": {
+                        "stateRef": "Spider/animations/Take_001.animstate"
+                    }
+                }
+            }
+        ]
+    },
+    "Spider/animations/Take_001.animstate": {
+        "clipSource": {
+            "clipRef": "Spider/animations/Take_001.clip",
+            "loopCount": -1,
+            "timeScale": 1.0,
+            "type": "Clip"
+        },
+        "name": "Take 001"
+    },
+    "Spider/animations/Take_001.clip": {
+        "binaryRef": "Spider/binaries/1386703189_Spider_Take_001.bin",
+        "channels": [
+            {
+                "blendType": "Linear",
+                "jointIndex": 0,
+                "jointName": "Bone01",
+                "name": "_jnt0",
+                "rotationSamples": [
+                    0,
+                    20,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    80,
+                    15,
+                    "float32"
+                ],
+                "times": [
+                    200,
+                    5,
+                    "float32"
+                ],
+                "translationSamples": [
+                    140,
+                    15,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 1,
+                "jointName": "Bone02",
+                "name": "_jnt1",
+                "rotationSamples": [
+                    220,
+                    44,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    396,
+                    33,
+                    "float32"
+                ],
+                "times": [
+                    660,
+                    11,
+                    "float32"
+                ],
+                "translationSamples": [
+                    528,
+                    33,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 2,
+                "jointName": "Bone03",
+                "name": "_jnt2",
+                "rotationSamples": [
+                    704,
+                    12,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    752,
+                    9,
+                    "float32"
+                ],
+                "times": [
+                    824,
+                    3,
+                    "float32"
+                ],
+                "translationSamples": [
+                    788,
+                    9,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 3,
+                "jointName": "Bone04",
+                "name": "_jnt3",
+                "rotationSamples": [
+                    836,
+                    52,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    1044,
+                    39,
+                    "float32"
+                ],
+                "times": [
+                    1356,
+                    13,
+                    "float32"
+                ],
+                "translationSamples": [
+                    1200,
+                    39,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 4,
+                "jointName": "Bone05",
+                "name": "_jnt4",
+                "rotationSamples": [
+                    1408,
+                    48,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    1600,
+                    36,
+                    "float32"
+                ],
+                "times": [
+                    1888,
+                    12,
+                    "float32"
+                ],
+                "translationSamples": [
+                    1744,
+                    36,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 5,
+                "jointName": "Bone06",
+                "name": "_jnt5",
+                "rotationSamples": [
+                    1936,
+                    36,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    2080,
+                    27,
+                    "float32"
+                ],
+                "times": [
+                    2296,
+                    9,
+                    "float32"
+                ],
+                "translationSamples": [
+                    2188,
+                    27,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 6,
+                "jointName": "Bone07",
+                "name": "_jnt6",
+                "rotationSamples": [
+                    2332,
+                    28,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    2444,
+                    21,
+                    "float32"
+                ],
+                "times": [
+                    2612,
+                    7,
+                    "float32"
+                ],
+                "translationSamples": [
+                    2528,
+                    21,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 7,
+                "jointName": "Bone16",
+                "name": "_jnt7",
+                "rotationSamples": [
+                    2640,
+                    52,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    2848,
+                    39,
+                    "float32"
+                ],
+                "times": [
+                    3160,
+                    13,
+                    "float32"
+                ],
+                "translationSamples": [
+                    3004,
+                    39,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 8,
+                "jointName": "Bone17",
+                "name": "_jnt8",
+                "rotationSamples": [
+                    3212,
+                    36,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    3356,
+                    27,
+                    "float32"
+                ],
+                "times": [
+                    3572,
+                    9,
+                    "float32"
+                ],
+                "translationSamples": [
+                    3464,
+                    27,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 9,
+                "jointName": "Bone18",
+                "name": "_jnt9",
+                "rotationSamples": [
+                    3608,
+                    12,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    3656,
+                    9,
+                    "float32"
+                ],
+                "times": [
+                    3728,
+                    3,
+                    "float32"
+                ],
+                "translationSamples": [
+                    3692,
+                    9,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 10,
+                "jointName": "Bone19",
+                "name": "_jnt10",
+                "rotationSamples": [
+                    3740,
+                    12,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    3788,
+                    9,
+                    "float32"
+                ],
+                "times": [
+                    3860,
+                    3,
+                    "float32"
+                ],
+                "translationSamples": [
+                    3824,
+                    9,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 11,
+                "jointName": "Bone12",
+                "name": "_jnt11",
+                "rotationSamples": [
+                    3872,
+                    52,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    4080,
+                    39,
+                    "float32"
+                ],
+                "times": [
+                    4392,
+                    13,
+                    "float32"
+                ],
+                "translationSamples": [
+                    4236,
+                    39,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 12,
+                "jointName": "Bone13",
+                "name": "_jnt12",
+                "rotationSamples": [
+                    4444,
+                    28,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    4556,
+                    21,
+                    "float32"
+                ],
+                "times": [
+                    4724,
+                    7,
+                    "float32"
+                ],
+                "translationSamples": [
+                    4640,
+                    21,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 13,
+                "jointName": "Bone14",
+                "name": "_jnt13",
+                "rotationSamples": [
+                    4752,
+                    12,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    4800,
+                    9,
+                    "float32"
+                ],
+                "times": [
+                    4872,
+                    3,
+                    "float32"
+                ],
+                "translationSamples": [
+                    4836,
+                    9,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 14,
+                "jointName": "Bone15",
+                "name": "_jnt14",
+                "rotationSamples": [
+                    4884,
+                    12,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    4932,
+                    9,
+                    "float32"
+                ],
+                "times": [
+                    5004,
+                    3,
+                    "float32"
+                ],
+                "translationSamples": [
+                    4968,
+                    9,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 15,
+                "jointName": "Bone08",
+                "name": "_jnt15",
+                "rotationSamples": [
+                    5016,
+                    60,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    5256,
+                    45,
+                    "float32"
+                ],
+                "times": [
+                    5616,
+                    15,
+                    "float32"
+                ],
+                "translationSamples": [
+                    5436,
+                    45,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 16,
+                "jointName": "Bone09",
+                "name": "_jnt16",
+                "rotationSamples": [
+                    5676,
+                    48,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    5868,
+                    36,
+                    "float32"
+                ],
+                "times": [
+                    6156,
+                    12,
+                    "float32"
+                ],
+                "translationSamples": [
+                    6012,
+                    36,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 17,
+                "jointName": "Bone10",
+                "name": "_jnt17",
+                "rotationSamples": [
+                    6204,
+                    16,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    6268,
+                    12,
+                    "float32"
+                ],
+                "times": [
+                    6364,
+                    4,
+                    "float32"
+                ],
+                "translationSamples": [
+                    6316,
+                    12,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 18,
+                "jointName": "Bone11",
+                "name": "_jnt18",
+                "rotationSamples": [
+                    6380,
+                    12,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    6428,
+                    9,
+                    "float32"
+                ],
+                "times": [
+                    6500,
+                    3,
+                    "float32"
+                ],
+                "translationSamples": [
+                    6464,
+                    9,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 19,
+                "jointName": "Bone04(mirrored)",
+                "name": "_jnt19",
+                "rotationSamples": [
+                    6512,
+                    64,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    6768,
+                    48,
+                    "float32"
+                ],
+                "times": [
+                    7152,
+                    16,
+                    "float32"
+                ],
+                "translationSamples": [
+                    6960,
+                    48,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 20,
+                "jointName": "Bone05(mirrored)",
+                "name": "_jnt20",
+                "rotationSamples": [
+                    7216,
+                    56,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    7440,
+                    42,
+                    "float32"
+                ],
+                "times": [
+                    7776,
+                    14,
+                    "float32"
+                ],
+                "translationSamples": [
+                    7608,
+                    42,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 21,
+                "jointName": "Bone06(mirrored)",
+                "name": "_jnt21",
+                "rotationSamples": [
+                    7832,
+                    24,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    7928,
+                    18,
+                    "float32"
+                ],
+                "times": [
+                    8072,
+                    6,
+                    "float32"
+                ],
+                "translationSamples": [
+                    8000,
+                    18,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 22,
+                "jointName": "Bone07(mirrored)",
+                "name": "_jnt22",
+                "rotationSamples": [
+                    8096,
+                    12,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    8144,
+                    9,
+                    "float32"
+                ],
+                "times": [
+                    8216,
+                    3,
+                    "float32"
+                ],
+                "translationSamples": [
+                    8180,
+                    9,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 23,
+                "jointName": "Bone16(mirrored)",
+                "name": "_jnt23",
+                "rotationSamples": [
+                    8228,
+                    52,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    8436,
+                    39,
+                    "float32"
+                ],
+                "times": [
+                    8748,
+                    13,
+                    "float32"
+                ],
+                "translationSamples": [
+                    8592,
+                    39,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 24,
+                "jointName": "Bone17(mirrored)",
+                "name": "_jnt24",
+                "rotationSamples": [
+                    8800,
+                    44,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    8976,
+                    33,
+                    "float32"
+                ],
+                "times": [
+                    9240,
+                    11,
+                    "float32"
+                ],
+                "translationSamples": [
+                    9108,
+                    33,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 25,
+                "jointName": "Bone18(mirrored)",
+                "name": "_jnt25",
+                "rotationSamples": [
+                    9284,
+                    12,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    9332,
+                    9,
+                    "float32"
+                ],
+                "times": [
+                    9404,
+                    3,
+                    "float32"
+                ],
+                "translationSamples": [
+                    9368,
+                    9,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 26,
+                "jointName": "Bone19(mirrored)",
+                "name": "_jnt26",
+                "rotationSamples": [
+                    9416,
+                    12,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    9464,
+                    9,
+                    "float32"
+                ],
+                "times": [
+                    9536,
+                    3,
+                    "float32"
+                ],
+                "translationSamples": [
+                    9500,
+                    9,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 27,
+                "jointName": "Bone12(mirrored)",
+                "name": "_jnt27",
+                "rotationSamples": [
+                    9548,
+                    52,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    9756,
+                    39,
+                    "float32"
+                ],
+                "times": [
+                    10068,
+                    13,
+                    "float32"
+                ],
+                "translationSamples": [
+                    9912,
+                    39,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 28,
+                "jointName": "Bone13(mirrored)",
+                "name": "_jnt28",
+                "rotationSamples": [
+                    10120,
+                    36,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    10264,
+                    27,
+                    "float32"
+                ],
+                "times": [
+                    10480,
+                    9,
+                    "float32"
+                ],
+                "translationSamples": [
+                    10372,
+                    27,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 29,
+                "jointName": "Bone14(mirrored)",
+                "name": "_jnt29",
+                "rotationSamples": [
+                    10516,
+                    12,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    10564,
+                    9,
+                    "float32"
+                ],
+                "times": [
+                    10636,
+                    3,
+                    "float32"
+                ],
+                "translationSamples": [
+                    10600,
+                    9,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 30,
+                "jointName": "Bone15(mirrored)",
+                "name": "_jnt30",
+                "rotationSamples": [
+                    10648,
+                    12,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    10696,
+                    9,
+                    "float32"
+                ],
+                "times": [
+                    10768,
+                    3,
+                    "float32"
+                ],
+                "translationSamples": [
+                    10732,
+                    9,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 31,
+                "jointName": "Bone08(mirrored)",
+                "name": "_jnt31",
+                "rotationSamples": [
+                    10780,
+                    60,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    11020,
+                    45,
+                    "float32"
+                ],
+                "times": [
+                    11380,
+                    15,
+                    "float32"
+                ],
+                "translationSamples": [
+                    11200,
+                    45,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 32,
+                "jointName": "Bone09(mirrored)",
+                "name": "_jnt32",
+                "rotationSamples": [
+                    11440,
+                    56,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    11664,
+                    42,
+                    "float32"
+                ],
+                "times": [
+                    12000,
+                    14,
+                    "float32"
+                ],
+                "translationSamples": [
+                    11832,
+                    42,
+                    "float32"
+                ],
+                "type": "Joint"
+            },
+            {
+                "blendType": "Linear",
+                "jointIndex": 33,
+                "jointName": "Bone10(mirrored)",
+                "name": "_jnt33",
+                "rotationSamples": [
+                    12056,
+                    12,
+                    "float32"
+                ],
+                "scaleSamples": [
+                    12104,
+                    9,
+                    "float32"
+                ],
+                "times": [
+                    12176,
+                    3,
+                    "float32"
+                ],
+                "translationSamples": [
+                    12140,
+                    9,
+                    "float32"
+                ],
+                "type": "Joint"
+            }
+        ],
+        "name": "Take 001"
+    },
+    "Spider/entities/RootNode.entity": {
+        "components": {
+            "animation": {
+                "layersRef": "Spider/animations/Animations.animation",
+                "poseRef": "Spider/skeletons/Skeleton.skeleton"
+            },
+            "transform": {
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    1,
+                    1,
+                    1
+                ],
+                "translation": [
+                    0,
+                    0,
+                    0
+                ]
+            }
+        },
+        "name": "Spider",
+        "nodeType": "Null",
+        "ref": "Spider/entities/RootNode.entity"
+    },
+    "Spider/entities/spider_1_0.entity": {
+        "components": {
+            "meshData": {
+                "meshRef": "Spider/meshes/spider_1_0.mesh",
+                "poseRef": "Spider/skeletons/Skeleton.skeleton"
+            },
+            "meshRenderer": {
+                "castShadows": true,
+                "cullMode": "Dynamic",
+                "hidden": false,
+                "materialRefs": [
+                    "Spider/materials/02_-_Default.material"
+                ],
+                "receiveShadows": true,
+                "reflectable": false
+            },
+            "transform": {
+                "parentRef": "Spider/entities/RootNode.entity",
+                "rotation": [
+                    -90,
+                    0,
+                    0
+                ],
+                "scale": [
+                    0.01,
+                    0.01,
+                    0.01
+                ],
+                "translation": [
+                    0,
+                    0,
+                    0
+                ]
+            }
+        },
+        "name": "spider 1",
+        "nodeType": "Mesh",
+        "ref": "Spider/entities/spider_1_0.entity"
+    },
+    "Spider/materials/02_-_Default.material": {
+        "blendState": {
+            "blendDst": "OneMinusSrcAlphaFactor",
+            "blendEquation": "AddEquation",
+            "blendSrc": "SrcAlphaFactor",
+            "blending": "NoBlending"
+        },
+        "cullState": {
+            "cullFace": "Back",
+            "enabled": true,
+            "frontFace": "CCW"
+        },
+        "depthState": {
+            "enabled": true,
+            "write": true
+        },
+        "name": "02 - Default",
+        "ref": "Spider/materials/02_-_Default.material",
+        "renderQueue": -1,
+        "shaderRef": "GOO_ENGINE_SHADERS/uber",
+        "texturesMapping": {
+            "DIFFUSE_MAP": {
+                "enabled": true,
+                "textureRef": "Spider/textures/spider2.texture"
+            }
+        },
+        "type": "Phong",
+        "uniforms": {
+            "discardThreshold": {
+                "enabled": false,
+                "value": 0
+            },
+            "fresnel": {
+                "enabled": true,
+                "value": 0
+            },
+            "materialAmbient": {
+                "enabled": true,
+                "value": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            "materialDiffuse": {
+                "enabled": true,
+                "value": [
+                    0.587999999523163,
+                    0.587999999523163,
+                    0.587999999523163,
+                    1
+                ]
+            },
+            "materialEmissive": {
+                "enabled": true,
+                "value": [
+                    0,
+                    0,
+                    0,
+                    1
+                ]
+            },
+            "materialSpecular": {
+                "enabled": true,
+                "value": [
+                    0,
+                    0,
+                    0,
+                    1
+                ]
+            },
+            "materialSpecularPower": {
+                "enabled": true,
+                "value": 2.0000000206574
+            },
+            "normalMultiplier": {
+                "enabled": true,
+                "value": 1
+            },
+            "opacity": {
+                "enabled": true,
+                "value": 1
+            },
+            "reflectivity": {
+                "enabled": true,
+                "value": 0
+            }
+        }
+    },
+    "Spider/meshes/spider_1_0.mesh": {
+        "binaryRef": "Spider/binaries/1386703189_data.bin",
+        "boundingVolume": {
+            "max": [
+                105.384979248047,
+                90.5457611083984,
+                110.359191894531
+            ],
+            "min": [
+                -104.285247802734,
+                -85.1944808959961,
+                -1.92936706542969
+            ],
+            "type": "BoundingBox"
+        },
+        "colors": [],
+        "indexLengths": [
+            1044
+        ],
+        "indexModes": [
+            "Triangles"
+        ],
+        "indices": [
+            0,
+            1044,
+            "uint16"
+        ],
+        "joints": [
+            16728,
+            1464,
+            "uint8"
+        ],
+        "name": "spider 1",
+        "normals": [
+            6480,
+            1098,
+            "float32"
+        ],
+        "tangents": [
+            10872,
+            1464,
+            "float32"
+        ],
+        "textureCoords": [
+            [
+                24048,
+                732,
+                "float32"
+            ],
+            [
+                26976,
+                732,
+                "float32"
+            ]
+        ],
+        "type": "SkinnedMesh",
+        "vertexCount": 366,
+        "vertices": [
+            2088,
+            1098,
+            "float32"
+        ],
+        "weights": [
+            18192,
+            1464,
+            "float32"
+        ]
+    },
+    "Spider/skeletons/Skeleton.skeleton": {
+        "joints": [
+            {
+                "index": 0,
+                "inverseBindPose": {
+                    "matrix": [
+                        7.566997237153564e-08,
+                        0.9991210048000241,
+                        0.041921250343339114,
+                        10.3058170504045,
+                        -4.851509347343716e-07,
+                        0.041921252846418,
+                        -0.999121064455734,
+                        36.4864667168179,
+                        -0.999999880790484,
+                        5.5265310079450154e-08,
+                        4.878964975108238e-07,
+                        -1.69215954750203e-05,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bone01",
+                "parentIndex": -32768
+            },
+            {
+                "index": 1,
+                "inverseBindPose": {
+                    "matrix": [
+                        3.5181390807443e-07,
+                        0.7745173644372021,
+                        0.6325522291768881,
+                        -31.925264088562592,
+                        -3.5317026709355394e-07,
+                        0.6325522345295002,
+                        -0.7745173709909171,
+                        21.6733773576003,
+                        -0.9999998807904762,
+                        4.908736315792257e-08,
+                        4.960773775201808e-07,
+                        -1.7882213002661793e-05,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bone02",
+                "parentIndex": 0
+            },
+            {
+                "index": 2,
+                "inverseBindPose": {
+                    "matrix": [
+                        3.5181390807443e-07,
+                        0.7745173644372021,
+                        0.6325522291768881,
+                        -120.81910390784199,
+                        -3.5317026709355394e-07,
+                        0.6325522345295002,
+                        -0.7745173709909171,
+                        21.673392044034614,
+                        -0.9999998807904762,
+                        4.908736315792257e-08,
+                        4.960773775201808e-07,
+                        -2.0706202241782492e-05,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bone03",
+                "parentIndex": 1
+            },
+            {
+                "index": 3,
+                "inverseBindPose": {
+                    "matrix": [
+                        0.6993209931121086,
+                        0.6525889236371774,
+                        0.29168111967887494,
+                        -15.595554047535597,
+                        -0.635836739849121,
+                        0.7543530472301943,
+                        -0.16328949511151686,
+                        10.967739538030813,
+                        -0.32659127173091007,
+                        -0.07126975982936504,
+                        0.9424744002840629,
+                        -27.076672043514595,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bone04",
+                "parentIndex": 0
+            },
+            {
+                "index": 4,
+                "inverseBindPose": {
+                    "matrix": [
+                        0.701699409908448,
+                        0.6545134617107171,
+                        -0.2814802551972302,
+                        -36.38905062861686,
+                        -0.71057273560468,
+                        0.6717299064702676,
+                        -0.20943636991894163,
+                        18.699020176818294,
+                        0.05199982111812792,
+                        0.34697383307183594,
+                        0.936432604184354,
+                        -55.3250327403159,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bone05",
+                "parentIndex": 3
+            },
+            {
+                "index": 5,
+                "inverseBindPose": {
+                    "matrix": [
+                        0.3106486410364872,
+                        0.2911964441478698,
+                        -0.9048210655619136,
+                        -6.018732282372278,
+                        -0.9131535946218323,
+                        0.3557199494322453,
+                        -0.19902889719735728,
+                        49.74659622497569,
+                        0.2639067631429809,
+                        0.8880698985993872,
+                        0.3764115214825319,
+                        -80.41247677389723,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bone06",
+                "parentIndex": 4
+            },
+            {
+                "index": 6,
+                "inverseBindPose": {
+                    "matrix": [
+                        0.1741009102861218,
+                        0.3153960512317407,
+                        -0.9328517285910773,
+                        -35.46019942400177,
+                        -0.7046930794739888,
+                        0.70159494603241,
+                        0.10568943157014311,
+                        9.976555144859141,
+                        0.6878196270417758,
+                        0.6389749612349958,
+                        0.34440650420978325,
+                        -97.94986606700178,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bone07",
+                "parentIndex": 5
+            },
+            {
+                "index": 7,
+                "inverseBindPose": {
+                    "matrix": [
+                        0.9424646080479882,
+                        0.19532488149401533,
+                        0.27130941525459285,
+                        -17.89750473894668,
+                        -0.20293652377276206,
+                        0.9791918329570639,
+                        -1.3783572160233927e-07,
+                        5.018818651436836,
+                        -0.26566399784376393,
+                        -0.05505846120608057,
+                        0.9624922259537558,
+                        -29.444579449694,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bone16",
+                "parentIndex": 0
+            },
+            {
+                "index": 8,
+                "inverseBindPose": {
+                    "matrix": [
+                        0.9472599880209702,
+                        0.20497112038849855,
+                        -0.24634339277737183,
+                        -40.00599187025692,
+                        -0.213571031611235,
+                        0.9768909999803925,
+                        -0.008414474035178653,
+                        5.976645411510259,
+                        0.238926023971927,
+                        0.060582533681633445,
+                        0.9691460758032321,
+                        -57.066166090731606,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bone17",
+                "parentIndex": 7
+            },
+            {
+                "index": 9,
+                "inverseBindPose": {
+                    "matrix": [
+                        0.3864308611911606,
+                        0.10575089044113878,
+                        -0.9162358305263173,
+                        -2.1922694610550484,
+                        -0.2587889762297395,
+                        0.9659308288405863,
+                        0.0023400070503361834,
+                        9.717560210910474,
+                        0.8852678774187128,
+                        0.2362074774637307,
+                        0.40063263965082957,
+                        -95.72816699218257,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bone18",
+                "parentIndex": 8
+            },
+            {
+                "index": 10,
+                "inverseBindPose": {
+                    "matrix": [
+                        0.790594811417032,
+                        0.19849833719400334,
+                        -0.5792738323450555,
+                        -85.5105536044403,
+                        -0.23680676523460165,
+                        0.9715079785992781,
+                        0.009709602101250747,
+                        7.344917411099608,
+                        0.5646966609562002,
+                        0.12949964063362351,
+                        0.8150751633266318,
+                        -60.545737257554805,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bone19",
+                "parentIndex": 9
+            },
+            {
+                "index": 11,
+                "inverseBindPose": {
+                    "matrix": [
+                        0.9349832044931379,
+                        -0.25550613097456915,
+                        0.24601429980254488,
+                        -19.472137723570196,
+                        0.26498836825918193,
+                        0.9642351238655253,
+                        -0.005656938888631014,
+                        4.954617526438441,
+                        -0.23577020786024003,
+                        0.07048005923952226,
+                        0.9692496408042641,
+                        -28.948774741417,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bone12",
+                "parentIndex": 0
+            },
+            {
+                "index": 12,
+                "inverseBindPose": {
+                    "matrix": [
+                        0.9360032590017029,
+                        -0.28197170760940143,
+                        -0.2106876189154628,
+                        -46.09755892933158,
+                        0.28649526395045893,
+                        0.9580354616880072,
+                        -0.009390178438248934,
+                        3.851831336845799,
+                        0.20449406545847698,
+                        -0.05157179020743226,
+                        0.9775083060174568,
+                        -55.17653132316968,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bone13",
+                "parentIndex": 11
+            },
+            {
+                "index": 13,
+                "inverseBindPose": {
+                    "matrix": [
+                        0.3770198956929423,
+                        -0.10742671306737087,
+                        -0.9199543519309435,
+                        -3.2120017485044414,
+                        0.25485513775795043,
+                        0.9669424199364732,
+                        -0.008467798895152699,
+                        6.889200696557309,
+                        0.8904520133136962,
+                        -0.23126242372970945,
+                        0.3919345415993445,
+                        -100.076559569737,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bone14",
+                "parentIndex": 12
+            },
+            {
+                "index": 14,
+                "inverseBindPose": {
+                    "matrix": [
+                        0.6303626176413549,
+                        -0.16661117732482317,
+                        -0.7582108948011054,
+                        -71.87848591446499,
+                        0.2570904694016047,
+                        0.9663865074628384,
+                        0.001384083914684557,
+                        6.646820576976338,
+                        0.7324941024011349,
+                        -0.19580125028420223,
+                        0.6520080099319049,
+                        -82.21887108928779,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bone15",
+                "parentIndex": 13
+            },
+            {
+                "index": 15,
+                "inverseBindPose": {
+                    "matrix": [
+                        0.6554189457947522,
+                        -0.6989838623396097,
+                        0.28609017120692676,
+                        -24.220047394223695,
+                        0.729587777620455,
+                        0.6838870057609846,
+                        -0.0005581155807511893,
+                        0.6693272537622992,
+                        -0.19526320352761908,
+                        0.20909365612775097,
+                        0.9582024198978368,
+                        -25.710727652226698,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bone08",
+                "parentIndex": 0
+            },
+            {
+                "index": 16,
+                "inverseBindPose": {
+                    "matrix": [
+                        0.6602305626212288,
+                        -0.7065679915046795,
+                        -0.25467105464518386,
+                        -47.50248713644224,
+                        0.728975957711021,
+                        0.6844778661894181,
+                        -0.009180251949815189,
+                        1.109441012737654,
+                        0.18080312411706193,
+                        -0.1795879452465191,
+                        0.96698402758755,
+                        -59.07803563839051,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bone09",
+                "parentIndex": 15
+            },
+            {
+                "index": 17,
+                "inverseBindPose": {
+                    "matrix": [
+                        0.275655938663173,
+                        -0.31661374029092015,
+                        -0.9076174168022356,
+                        -8.755221595062732,
+                        0.768906880562608,
+                        0.6392743251025425,
+                        0.010522839895512465,
+                        -5.467218396418749,
+                        0.5768848476708797,
+                        -0.7007739743298238,
+                        0.4196662561174402,
+                        -103.21324287100198,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bone10",
+                "parentIndex": 16
+            },
+            {
+                "index": 18,
+                "inverseBindPose": {
+                    "matrix": [
+                        0.23130813904480518,
+                        -0.26532017192817886,
+                        -0.9360028122251722,
+                        -39.77358273915981,
+                        0.7537697510565936,
+                        0.6571385840779358,
+                        1.021660359063019e-06,
+                        -2.8030172433602543,
+                        0.6150834787638283,
+                        -0.7055310577046428,
+                        0.3519919300003907,
+                        -106.52907907515099,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bone11",
+                "parentIndex": 17
+            },
+            {
+                "index": 19,
+                "inverseBindPose": {
+                    "matrix": [
+                        -0.7086615240886665,
+                        0.6528554764694331,
+                        0.2675419480439367,
+                        -14.5053076935158,
+                        0.6346764387589419,
+                        0.7555071610862201,
+                        -0.16246504725978703,
+                        10.446211018996207,
+                        -0.3081960446245561,
+                        0.0546698412306695,
+                        -0.9497508177863943,
+                        29.2867073039372,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bone04(mirrored)",
+                "parentIndex": 0
+            },
+            {
+                "index": 20,
+                "inverseBindPose": {
+                    "matrix": [
+                        -0.7126635226946522,
+                        0.656651144085077,
+                        -0.24682139833828304,
+                        -37.9526307650935,
+                        0.6658815020020676,
+                        0.7439158475317097,
+                        0.056493219650293046,
+                        2.028337600938384,
+                        0.22071058965474702,
+                        -0.12409309176744679,
+                        -0.9674131117037698,
+                        57.256842185118394,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bone05(mirrored)",
+                "parentIndex": 19
+            },
+            {
+                "index": 21,
+                "inverseBindPose": {
+                    "matrix": [
+                        -0.29484235031460754,
+                        0.26903338334726123,
+                        -0.9168911000439491,
+                        -1.331337370021154,
+                        0.7177484661211252,
+                        0.6957927257904991,
+                        -0.026645665506901006,
+                        11.253520590557624,
+                        0.6307974557485883,
+                        -0.6659533156797766,
+                        -0.39824737973412777,
+                        94.2223800967934,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bone06(mirrored)",
+                "parentIndex": 20
+            },
+            {
+                "index": 22,
+                "inverseBindPose": {
+                    "matrix": [
+                        -0.6345283551002839,
+                        0.2357812652405142,
+                        -0.7360579249340808,
+                        -66.52423615585205,
+                        0.5534937841237063,
+                        0.803321204313245,
+                        -0.21981885524189798,
+                        -9.042843966634232,
+                        0.5394617430958435,
+                        -0.5468847546663779,
+                        -0.6402335141277471,
+                        78.96257175066418,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bone07(mirrored)",
+                "parentIndex": 21
+            },
+            {
+                "index": 23,
+                "inverseBindPose": {
+                    "matrix": [
+                        -0.941872408727049,
+                        0.2056946939900597,
+                        0.26564235152956495,
+                        -15.192645871513681,
+                        0.21262653146423105,
+                        0.9771296717781487,
+                        -0.0027229298015002895,
+                        5.116469478271635,
+                        -0.26012715123102886,
+                        0.0539179666729776,
+                        -0.9640677575922468,
+                        30.23251912113909,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bone16(mirrored)",
+                "parentIndex": 0
+            },
+            {
+                "index": 24,
+                "inverseBindPose": {
+                    "matrix": [
+                        -0.946749016975449,
+                        0.19778651408777995,
+                        -0.2540594648878191,
+                        -38.06770807350024,
+                        0.2014074541930211,
+                        0.9794345176267801,
+                        0.011952437006106762,
+                        3.8608730822657575,
+                        0.251198715406094,
+                        -0.03985352396793402,
+                        -0.9671146342232821,
+                        57.09570122280331,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bone17(mirrored)",
+                "parentIndex": 23
+            },
+            {
+                "index": 25,
+                "inverseBindPose": {
+                    "matrix": [
+                        -0.4125528052003288,
+                        0.0951253689032412,
+                        -0.9059533625379634,
+                        -4.328178409720348,
+                        0.1978396899472275,
+                        0.9801505762884652,
+                        0.012823911873262586,
+                        3.511321858586509,
+                        0.889190412956276,
+                        -0.17394295695386258,
+                        -0.4231833591264373,
+                        94.48508571843008,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bone18(mirrored)",
+                "parentIndex": 24
+            },
+            {
+                "index": 26,
+                "inverseBindPose": {
+                    "matrix": [
+                        -0.9818064841700819,
+                        0.1374210026047996,
+                        -0.13104062245383336,
+                        -103.53905800477497,
+                        0.15107580952501884,
+                        0.9833847433671369,
+                        -0.10065193347031728,
+                        -1.3907808076327033,
+                        0.11503165741658901,
+                        -0.11861778713124095,
+                        -0.986254490788215,
+                        13.639269582234004,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bone19(mirrored)",
+                "parentIndex": 25
+            },
+            {
+                "index": 27,
+                "inverseBindPose": {
+                    "matrix": [
+                        -0.9276371916264168,
+                        -0.2778663311644066,
+                        0.2495595370353406,
+                        -17.667617198190904,
+                        -0.2869071799452208,
+                        0.9579583695462522,
+                        0.00015470012756448599,
+                        4.821766521992283,
+                        -0.23911059771585103,
+                        -0.07145690681508349,
+                        -0.9683595135540248,
+                        29.398867840376596,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bone12(mirrored)",
+                "parentIndex": 0
+            },
+            {
+                "index": 28,
+                "inverseBindPose": {
+                    "matrix": [
+                        -0.9411769921311172,
+                        -0.2852103004177886,
+                        -0.18122120309986664,
+                        -45.96547750283931,
+                        -0.2716287317127991,
+                        0.9575684873170361,
+                        -0.09633355782787024,
+                        9.891644308609381,
+                        0.20100703633427297,
+                        -0.04144204264926143,
+                        -0.9787127410395667,
+                        53.01975560651721,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bone13(mirrored)",
+                "parentIndex": 27
+            },
+            {
+                "index": 29,
+                "inverseBindPose": {
+                    "matrix": [
+                        -0.35734511101853683,
+                        -0.10789386543136514,
+                        -0.9277195092616919,
+                        0.9149672022652325,
+                        -0.08281844681033178,
+                        0.9930523804857457,
+                        -0.08359152961903463,
+                        26.781280030915326,
+                        0.9302932682110415,
+                        0.046961273884350584,
+                        -0.3637980889743614,
+                        95.3747206855232,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bone14(mirrored)",
+                "parentIndex": 28
+            },
+            {
+                "index": 30,
+                "inverseBindPose": {
+                    "matrix": [
+                        -0.8996037238770099,
+                        -0.14571633316729432,
+                        -0.4116796747366414,
+                        -96.47443575824428,
+                        -0.19431146183432502,
+                        0.9777921725950618,
+                        0.07851498786911693,
+                        15.115962856026787,
+                        0.3910963313660691,
+                        0.1506264871948241,
+                        -0.9079400281846961,
+                        44.05851039324791,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bone15(mirrored)",
+                "parentIndex": 29
+            },
+            {
+                "index": 31,
+                "inverseBindPose": {
+                    "matrix": [
+                        -0.6430428080815338,
+                        -0.7126760138790283,
+                        0.2803375331411217,
+                        -23.072305782023903,
+                        -0.741515852555465,
+                        0.6709190636857508,
+                        0.004713917055502442,
+                        1.4907992733129847,
+                        -0.19144322260947097,
+                        -0.2048434013937988,
+                        -0.9598898984898521,
+                        27.6395517155858,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bone08(mirrored)",
+                "parentIndex": 0
+            },
+            {
+                "index": 32,
+                "inverseBindPose": {
+                    "matrix": [
+                        -0.6546718713653988,
+                        -0.721507587404862,
+                        -0.22545899896674482,
+                        -47.44926954172839,
+                        -0.7097647895503046,
+                        0.6893431405968692,
+                        -0.14505193144583584,
+                        10.456450005534553,
+                        0.26007463925821606,
+                        0.06506142847395122,
+                        -0.9633940808069053,
+                        57.4116366102137,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bone09(mirrored)",
+                "parentIndex": 31
+            },
+            {
+                "index": 33,
+                "inverseBindPose": {
+                    "matrix": [
+                        -0.2647128657228565,
+                        -0.29764905819015147,
+                        -0.917241705022037,
+                        -3.7354132320851323,
+                        -0.49490285402247813,
+                        0.8582887309901012,
+                        -0.13569125674319724,
+                        35.906614150977276,
+                        0.8276464521934259,
+                        0.4180262447010689,
+                        -0.3745073739219725,
+                        96.65327915009482,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                "name": "Bone10(mirrored)",
+                "parentIndex": 32
+            }
+        ],
+        "name": "Skeleton"
+    },
+    "Spider/textures/spider2.texture": {
+        "anisotropy": 1,
+        "fileName": "C:\\Users\\JVU\\Desktop\\SPiders\\spider2.png",
+        "flipY": true,
+        "magFilter": "Bilinear",
+        "minFilter": "Trilinear",
+        "name": "spider2",
+        "offset": [
+            0,
+            0
+        ],
+        "realUrl": "C:/Users/JVU/Desktop/SPiders/spider2.png",
+        "ref": "Spider/textures/spider2.texture",
+        "repeat": [
+            1,
+            1
+        ],
+        "url": "Spider/images/spider1.png",
+        "wrapU": "Repeat",
+        "wrapV": "Repeat"
+    },
+    "project.project": {
+        "backgroundColor": [
+            0.75,
+            0.76,
+            0.78,
+            1
+        ],
+        "created": "2013-12-10T19:18:26.035056",
+        "deleted": false,
+        "edit": [],
+        "entityRefs": [
+            "Spider/entities/RootNode.entity",
+            "Spider/entities/spider_1_0.entity"
+        ],
+        "fogColor": [
+            1,
+            1,
+            1
+        ],
+        "fogFar": 1000,
+        "fogNear": 0,
+        "globalAmbient": [
+            0,
+            0,
+            0
+        ],
+        "groupRefs": [
+            "Spider/Spider.group",
+            "root.group"
+        ],
+        "id": "XN0casKvRYGYoE8HZshHGg",
+        "licenseType": "CC0",
+        "modified": "2013-12-10T19:21:19.656031",
+        "name": "Spider",
+        "originalLicenseType": null,
+        "own": [
+            "h9AeW1X3S1WZYADWuViCyw"
+        ],
+        "parent": null,
+        "public": true,
+        "ref": "project.project",
+        "screenshot": "images/screenshot.png",
+        "skybox": {
+            "environmentType": 1,
+            "imageUrls": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "rotation": 0,
+            "shape": "Box"
+        },
+        "useFog": false,
+        "view": []
+    },
+    "root.group": {
+        "libraryRefs": [
+            "images/screenshot.png"
+        ],
+        "name": "root",
+        "ref": "root.group"
+    }
+}

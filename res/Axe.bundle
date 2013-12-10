@@ -1,0 +1,309 @@
+{
+    "Basic_2h_Axe/Basic_2h_Axe.group": {
+        "libraryRefs": [
+            "Basic_2h_Axe/entities/RootNode.entity",
+            "Basic_2h_Axe/meshes/Box04_0.mesh",
+            "Basic_2h_Axe/textures/axe1.texture",
+            "Basic_2h_Axe/materials/Standard_1.material",
+            "Basic_2h_Axe/binaries/1386703310_data.bin",
+            "Basic_2h_Axe/images/axe1.png"
+        ],
+        "name": "Basic_2h_Axe",
+        "ref": "Basic_2h_Axe/Basic_2h_Axe.group"
+    },
+    "Basic_2h_Axe/entities/Box04_0.entity": {
+        "components": {
+            "meshData": {
+                "meshRef": "Basic_2h_Axe/meshes/Box04_0.mesh"
+            },
+            "meshRenderer": {
+                "castShadows": true,
+                "cullMode": "Dynamic",
+                "hidden": false,
+                "materialRefs": [
+                    "Basic_2h_Axe/materials/Standard_1.material"
+                ],
+                "receiveShadows": true,
+                "reflectable": false
+            },
+            "transform": {
+                "rotation": [
+                    0,
+                    0,
+                    0
+                ],
+                "scale": [
+                    0.01,
+                    0.01,
+                    0.01
+                ],
+                "translation": [
+                    0,
+                    0,
+                    0
+                ]
+            }
+        },
+        "name": "Box04",
+        "nodeType": "Mesh",
+        "ref": "Basic_2h_Axe/entities/Box04_0.entity"
+    },
+    "Basic_2h_Axe/entities/RootNode.entity": {
+        "components": {
+            "transform": {
+                "rotation": [
+                    0.0,
+                    -0.0,
+                    0.0
+                ],
+                "scale": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "translation": [
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            }
+        },
+        "name": "Basic_2h_Axe",
+        "nodeType": "Null"
+    },
+    "Basic_2h_Axe/materials/Standard_1.material": {
+        "blendState": {
+            "blendDst": "OneMinusSrcAlphaFactor",
+            "blendEquation": "AddEquation",
+            "blendSrc": "SrcAlphaFactor",
+            "blending": "NoBlending"
+        },
+        "cullState": {
+            "cullFace": "Back",
+            "enabled": true,
+            "frontFace": "CCW"
+        },
+        "depthState": {
+            "enabled": true,
+            "write": true
+        },
+        "name": "Standard_1",
+        "ref": "Basic_2h_Axe/materials/Standard_1.material",
+        "renderQueue": -1,
+        "shaderRef": "GOO_ENGINE_SHADERS/uber",
+        "texturesMapping": {
+            "DIFFUSE_MAP": {
+                "enabled": true,
+                "textureRef": "Basic_2h_Axe/textures/axe1.texture"
+            }
+        },
+        "type": "Phong",
+        "uniforms": {
+            "discardThreshold": {
+                "enabled": false,
+                "value": 0
+            },
+            "fresnel": {
+                "enabled": true,
+                "value": 0
+            },
+            "materialAmbient": {
+                "enabled": true,
+                "value": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            "materialDiffuse": {
+                "enabled": true,
+                "value": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            "materialEmissive": {
+                "enabled": true,
+                "value": [
+                    0,
+                    0,
+                    0,
+                    1
+                ]
+            },
+            "materialSpecular": {
+                "enabled": true,
+                "value": [
+                    0,
+                    0,
+                    0,
+                    1
+                ]
+            },
+            "materialSpecularPower": {
+                "enabled": true,
+                "value": 2.0000000206574
+            },
+            "normalMultiplier": {
+                "enabled": true,
+                "value": 1
+            },
+            "opacity": {
+                "enabled": true,
+                "value": 1
+            },
+            "reflectivity": {
+                "enabled": true,
+                "value": 0
+            }
+        }
+    },
+    "Basic_2h_Axe/meshes/Box04_0.mesh": {
+        "binaryRef": "Basic_2h_Axe/binaries/1386703310_data.bin",
+        "boundingVolume": {
+            "max": [
+                4.38993120193481,
+                7.0462064743042,
+                127.760940551758
+            ],
+            "min": [
+                -5.04628372192383,
+                -29.2063045501709,
+                -12.3519611358643
+            ],
+            "type": "BoundingBox"
+        },
+        "colors": [],
+        "indexLengths": [
+            246
+        ],
+        "indexModes": [
+            "Triangles"
+        ],
+        "indices": [
+            0,
+            246,
+            "uint8"
+        ],
+        "name": "Box04",
+        "normals": [
+            1448,
+            300,
+            "float32"
+        ],
+        "tangents": [
+            2648,
+            400,
+            "float32"
+        ],
+        "textureCoords": [
+            [
+                4248,
+                200,
+                "float32"
+            ],
+            [
+                5048,
+                200,
+                "float32"
+            ]
+        ],
+        "type": "Mesh",
+        "vertexCount": 100,
+        "vertices": [
+            248,
+            300,
+            "float32"
+        ]
+    },
+    "Basic_2h_Axe/textures/axe1.texture": {
+        "anisotropy": 1,
+        "fileName": "D:\\(Stuff from 2013)\\(_Brett_)\\[Dungeon]\\Proto 5\\Assets\\Textures\\axe1.png",
+        "flipY": true,
+        "magFilter": "Bilinear",
+        "minFilter": "Trilinear",
+        "name": "axe1",
+        "offset": [
+            0,
+            0
+        ],
+        "realUrl": "D:/(Stuff from 2013)/(_Brett_)/[Dungeon]/Proto 5/Assets/Textures/axe1.png",
+        "ref": "Basic_2h_Axe/textures/axe1.texture",
+        "repeat": [
+            1,
+            1
+        ],
+        "url": "Basic_2h_Axe/images/axe1.png",
+        "wrapU": "Repeat",
+        "wrapV": "Repeat"
+    },
+    "project.project": {
+        "backgroundColor": [
+            0.75,
+            0.76,
+            0.78,
+            1
+        ],
+        "created": "2013-12-10T19:21:45.455216",
+        "deleted": false,
+        "edit": [],
+        "entityRefs": [
+            "Basic_2h_Axe/entities/RootNode.entity",
+            "Basic_2h_Axe/entities/Box04_0.entity"
+        ],
+        "fogColor": [
+            1,
+            1,
+            1
+        ],
+        "fogFar": 1000,
+        "fogNear": 0,
+        "globalAmbient": [
+            0,
+            0,
+            0
+        ],
+        "groupRefs": [
+            "Basic_2h_Axe/Basic_2h_Axe.group",
+            "root.group"
+        ],
+        "id": "tB3LvL-PSRmgYuOl_fKJgg",
+        "licenseType": "CC0",
+        "modified": "2013-12-10T19:21:53.930126",
+        "name": "Axe",
+        "originalLicenseType": null,
+        "own": [
+            "h9AeW1X3S1WZYADWuViCyw"
+        ],
+        "parent": null,
+        "public": true,
+        "ref": "project.project",
+        "screenshot": "images/screenshot.png",
+        "skybox": {
+            "environmentType": 1,
+            "imageUrls": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "rotation": 0,
+            "shape": "Box"
+        },
+        "useFog": false,
+        "view": []
+    },
+    "root.group": {
+        "libraryRefs": [
+            "Basic_2h_Axe/entities/Box04_0.entity",
+            "images/screenshot.png"
+        ],
+        "name": "root",
+        "ref": "root.group"
+    }
+}
